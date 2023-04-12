@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -10,8 +10,13 @@ export default function App() {
       <div className="bg-blue-200" id="home">
         <Header />
         <Hero />
+      <div id="testimonials">
+        <Testimonials id="a" />
       </div>
+      </div>
+      
       <Footer/>
+     
       {/* <div id="features">
         <Features />
       </div>
