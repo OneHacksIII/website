@@ -37,9 +37,14 @@ const Hero = () => {
                     href="https://onehacks.devpost.com/"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Sign Up Now On Devpost
+                    Register on Devpost
 
 
+                  </a>
+                  <a href="https://forms.gle/G7n4Fk2cAKhBu71J7"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Sign Up Here
                   </a>
                   <a
                     href="https://discord.gg/bugUsk5aZV"
@@ -52,11 +57,7 @@ const Hero = () => {
 
                     {/* </div> */}
                   </a>
-                  <a href="https://forms.gle/G7n4Fk2cAKhBu71J7"
-                  className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Sign Up Here
-                  </a>
+
                 </div>
               </div>
             </div>
