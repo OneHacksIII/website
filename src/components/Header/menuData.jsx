@@ -22,6 +22,12 @@ const menuData = [
     title: "Testimonials",
     path: "/#testimonials",
     newTab: false,
+  },
+  {
+    id: 5,
+    title: "One Hacks II",
+    path: "/II/",
+    newTab: true,
   }
 ];
 export default menuData;

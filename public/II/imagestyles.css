@@ -1,0 +1,60 @@
+.home-background {
+    background: url(assets/images/111111111.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-static {
+    position: fixed;
+    z-index: 10000;
+}
+
+.gradient-underline {
+    content: "";
+    position: relative;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient(270deg, #fec05e, #ff8d95, #b084ba, #597c9e);
+    border: 0;
+}
+
+
+.gradient-text {
+    background: -webkit-linear-gradient(90deg, #fec05e, #ff8d95, #b084ba, #597c9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.equal-height-column {
+    float: left;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.purpblue {
+    color: #6596D0;
+}
+.bg-purpblue {
+    background-color: #6596D0;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+.cover {
+    object-fit: cover;
+}
