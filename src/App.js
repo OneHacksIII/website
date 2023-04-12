@@ -18,7 +18,6 @@ export default function App() {
         <Header />
         <Hero />
       </div>
-      <Footer/>
       <div id="features">
         <Features />
       </div>
@@ -42,6 +41,8 @@ export default function App() {
       <div id="contact">
         <Contact />
       </div>
+            <Footer/>
+
     </>
   );
 }
