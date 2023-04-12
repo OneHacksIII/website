@@ -20,6 +20,8 @@ module.exports = {
         dark: "#1D2144",
         primary: "#4A6CF7",
         yellow: "#FBB040",
+        "logo1": "#6c87e4",
+        "logo2": "#42dfdd",
         "bluee": "#5fa1e2",
         "body-color": "#959CB1",
       },

@@ -2,7 +2,7 @@ import AboutSectionOne from "./components/About/AboutSectionOne";
 import AboutSectionTwo from "./components/About/AboutSectionTwo";
 import Brands from "./components/Brands";
 import Contact from "./components/Contact";
-import Features from "./components/Features";
+import Recap from "./components/Recap";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
@@ -18,8 +18,8 @@ export default function App() {
         <Header />
         <Hero />
       </div>
-      <div id="features">
-        <Features />
+      <div id="Recap">
+        <Recap />
       </div>
 
       <div id="brands">
