@@ -1,5 +1,12 @@
-
+import AboutSectionOne from "./components/About/AboutSectionOne";
+import AboutSectionTwo from "./components/About/AboutSectionTwo";
+import Brands from "./components/Brands";
+import Contact from "./components/Contact";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -12,13 +19,10 @@ export default function App() {
         <Hero />
       </div>
       <Footer/>
-      {/* <div id="features">
+      <div id="features">
         <Features />
       </div>
-      <div id="video">
 
-        <Video />
-      </div>
       <div id="brands">
         <Brands />
       </div>
@@ -34,12 +38,10 @@ export default function App() {
       <div id="pricing">
         <Pricing />
       </div>
-      <div id="blog">
-        <Blog />
-      </div>
+ 
       <div id="contact">
         <Contact />
-      </div> */}
+      </div>
     </>
   );
 }

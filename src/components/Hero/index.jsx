@@ -1,4 +1,3 @@
-// import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -50,7 +49,7 @@ const Hero = () => {
 
                     Join the discord
                     &nbsp;
-                    <img width={20} src="/images/logo/discord.svg" align="right" />
+                    <img width={20} src="/images/logo/discord.svg" alt="" align="right" />
 
 
                     {/* </div> */}
