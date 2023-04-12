@@ -35,7 +35,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <a
-                    href="/#"
+                    href="https://onehacks.devpost.com/"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Sign Up Now On Devpost
@@ -43,17 +43,20 @@ const Hero = () => {
 
                   </a>
                   <a
-                    href="/#"
+                    href="https://discord.gg/bugUsk5aZV"
                     className="rounded-md  py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out  bg-white/20 text-white hover:bg-white/30"
                   >
-
-
                     Join the discord
                     &nbsp;
                     <img width={20} src="/images/logo/discord.svg" align="right" />
 
 
                     {/* </div> */}
+                  </a>
+                  <a href="https://forms.gle/G7n4Fk2cAKhBu71J7"
+                  className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Sign Up Here
                   </a>
                 </div>
               </div>
