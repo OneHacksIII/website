@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
@@ -41,7 +41,8 @@ export default function App() {
       <div id="contact">
         <Contact />
       </div>
-            <Footer/>
+      <Footer />
+      <ScrollToTop />
 
     </>
   );
