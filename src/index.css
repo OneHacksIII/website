@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-line {
+    @apply h-2 rounded-xl object-center bg-gradient-to-r from-logo1 to-logo2
+}

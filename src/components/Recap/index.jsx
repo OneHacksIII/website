@@ -9,12 +9,15 @@ const Recap = () => {
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
-          <h1 className="text-6xl font-bold text-center pr-40 text-white">Recap Of OneHacks II</h1>
-          <div className="grid place-items-center py-8">
+          <div className=" py-8">
+            <h1 className=" text-5xl pl-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left text-white">Recap Of OneHacks II</h1>
 
-            <hr className="h-2 rounded-xl object-center bg-gradient-to-r from-logo1 to-logo2 w-2/3" />
+            <div className="grid place-items-center py-8">
+
+              <hr className="gradient-line w-4/5" />
+            </div>
           </div>
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="pl-[20%] grid grid-cols-1 gap-x-8 gap-y-14  md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
