@@ -90,7 +90,7 @@ const Brands = () => {
   };
   return (
 
-    <section className=" pt-16">
+    <section className="bg-primary/[.03] pt-16">
       < div className=" py-8" >
         <h1 className=" text-5xl pr-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-right text-white">Sponsors</h1>
 
