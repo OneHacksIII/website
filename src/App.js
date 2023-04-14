@@ -22,11 +22,12 @@ export default function App() {
         <Recap />
       </div>
 
-      <div id="brands">
-        <Brands />
-      </div>
+    
       <div id="about">
         <AboutSectionOne />
+      </div>
+        <div id="brands">
+        <Brands />
       </div>
       <div id="about-2">
         <AboutSectionTwo />
