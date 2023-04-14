@@ -26,11 +26,12 @@ export default function App() {
       <div id="about">
         <AboutSectionOne />
       </div>
-        <div id="brands">
-        <Brands />
-      </div>
+    
       <div id="about-2">
         <AboutSectionTwo />
+      </div>
+          <div id="brands">
+        <Brands />
       </div>
       <div id="testimonials">
         <Testimonials id="a" />

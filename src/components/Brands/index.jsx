@@ -92,11 +92,11 @@ const Brands = () => {
 
     <section className=" pt-16">
       < div className=" py-8" >
-        <h1 className=" text-5xl pr-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-right text-white">Sponsors</h1>
+        <h1 className=" text-5xl pr-[20%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-right text-white">Sponsors</h1>
 
         <div className="grid place-items-center py-8">
 
-          <hr className="gradient-line w-4/5" />
+          <hr className="gradient-line w-3/5" />
         </div>
       </div >
       <div className="container">
