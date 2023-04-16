@@ -18,12 +18,14 @@
 .swiper-slide {
     text-align: center;
     font-size: 18px;
+    width: auto !important;
+    height: 100%;
     /* background: #1D2144; */
 
     /* Center slide text vertically */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-button-prev {

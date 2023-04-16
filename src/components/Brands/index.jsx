@@ -40,41 +40,42 @@ const brandsData = [
     image: "/images/brands/tailadmin.svg",
   },
   {
-    id: 52,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    id: 1,
+    name: "UIdeck",
+    href: "https://uideck.com",
+    image: "/images/brands/uideck.svg",
   },
   {
-    id: 51,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    id: 2,
+    name: "Tailgrids",
+    href: "https://tailgrids.com",
+    image: "/images/brands/tailgrids.svg",
   },
   {
-    id: 53,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    id: 3,
+    name: "Lineicons",
+    href: "https://lineicons.com",
+    image: "/images/brands/lineicons.svg",
   },
   {
-    id: 54,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    id: 4,
+    name: "GrayGrids",
+    href: "https://graygrids.com",
+    image: "/images/brands/graygrids.svg",
   },
   {
-    id: 52,
+    id: 5,
     name: "TailAdmin",
     href: "https://tailadmin.com",
     image: "/images/brands/tailadmin.svg",
   },
-  {
-    id: 522,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
+  // {
+  //   id: 52,
+  //   name: "TailAdmin",
+  //   href: "https://tailadmin.com",
+  //   image: "/images/icons/globe.svg",
+  // },
+
 
 ];
 
@@ -92,7 +93,7 @@ const Brands = () => {
 
     <section className=" pt-16">
       < div className=" py-8" >
-        <h1 className=" text-5xl pr-[20%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-right text-white">Sponsors</h1>
+        <h1 className=" text-5xl pl-[20%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left text-white">Sponsors</h1>
 
         <div className="grid place-items-center py-8">
 
@@ -101,7 +102,7 @@ const Brands = () => {
       </div >
       <div className="container">
         <div className="-mx-4 flex ">
-          <div className="w-full h-44 px-4 flex">
+          <div className="h-[90]  px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#0374ef" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -109,14 +110,15 @@ const Brands = () => {
 
             </button>
             <Swiper
+              // slidesPerView={3}
+              slidesPerView={"auto"}
 
-              slidesPerView={3}
               spaceBetween={15}
               onSwiper={(swiper) => setSwiperRef(swiper)}
               pagination={{
                 clickable: true,
               }}
-              autoHeight={true}
+              autoHeight={false}
               modules={[Pagination, Navigation]}
               className="mySwiper"
 
