@@ -11,9 +11,9 @@ import { Pagination, Navigation } from "swiper";
 const brandsData = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    name: "Wolfram Language",
+    href: "https://www.wolfram.com/language/",
+    image: "/images/sponsors/wplfram.png",
   },
   {
     id: 2,
