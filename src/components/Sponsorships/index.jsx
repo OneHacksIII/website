@@ -79,7 +79,7 @@ const brandsData = [
 
 ];
 
-const Brands = () => {
+const Sponsors = () => {
   const [swiperRef, setSwiperRef] = useState(null);
 
   const prevHandler = () => {
@@ -91,18 +91,18 @@ const Brands = () => {
   };
   return (
 
-    <section className=" pt-16">
+    <section className=" pt-16 ">
       < div className=" py-8" >
-        <h1 className=" text-5xl pl-[20%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left text-white">Sponsors</h1>
+        <h1 className=" text-5xl grad-text sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left pl-[15%] text-white">Sponsorships</h1>
 
-        <div className="grid place-items-center py-8">
+        <div className="grid place-items-center pr-[30%] py-8">
 
           <hr className="gradient-line w-3/5" />
         </div>
       </div >
       <div className="container">
         <div className="-mx-4 flex ">
-          <div className="h-[90]  px-4 flex">
+          <div className=" max-w-full px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#0374ef" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -116,30 +116,41 @@ const Brands = () => {
               spaceBetween={15}
               onSwiper={(swiper) => setSwiperRef(swiper)}
               // pagination={{
-              //   type: "progressbar",
+              //   dynamicBullets: true,
+              //   clickable: true,
               // }}
+              pagination={{
+                type: "progressbar",
+              }}
               autoHeight={false}
               modules={[Pagination, Navigation]}
               className="mySwiper"
 
             >
-              {brandsData.map((brand) => {
-                const { href, image, name } = brand;
+              {brandsData.map((sponsor) => {
 
                 return (
                   <>
 
-                    <SwiperSlide key={brand.id}>
+                    <SwiperSlide key={sponsor.id}>
                       {/* <div className="flex h-screen"> */}
-                      <div className="  w-full bg-blue-400 justify-center items-center">
+                      <div className="container   min-w-full max-w-sm hover:scale-105 transform transition">
                         <a
-                          href={href}
+                          className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
+                          href={sponsor.href}
                           target="_blank"
-                          rel="nofollow noreferrer"
-                          className=" inline-flex grayscale w-full transition  hover:grayscale-0 opacity-60 hover:opacity-100"
+                          rel="noopener noreferrer"
                         >
-                          <img src={image} alt={name} />
+
+                          <img src={sponsor.image} alt={sponsor.name} />
+
+                          <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
+                            {sponsor.name}
+                          </h3>
+
+
                         </a>
+
                       </div>
                       {/* </div> */}
                     </SwiperSlide>
@@ -157,15 +168,7 @@ const Brands = () => {
 
 
             </button>
-            {/* <div
-              className="wow fadeInUp  overflow-x-auto items-center justify-center rounded-md bg-dark py-8 px-8 dark:bg-primary dark:bg-opacity-5 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px]"
-              data-wow-delay=".1s
-              "
-            >
-              {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
-              ))}
-            </div> */}
+
           </div>
         </div>
       </div >
@@ -173,4 +176,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default Sponsors;

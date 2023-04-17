@@ -1,7 +1,7 @@
 import AboutSectionOne from "./components/About/AboutSectionOne";
 import AboutSectionTwo from "./components/About/AboutSectionTwo";
-import Brands from "./components/Brands";
 import Faq from "./components/Faq";
+import Sponsors from "./components/Sponsorships";
 
 import Contact from "./components/Contact";
 import Recap from "./components/Recap";
@@ -32,8 +32,9 @@ export default function App() {
       <div id="about-2">
         <AboutSectionTwo />
       </div>
-          <div id="brands">
-        <Brands />
+    
+       <div id="Sponsors">
+        <Sponsors />
       </div>
       
       <div id="testimonials">
