@@ -6,7 +6,7 @@ import Sponsors from "./components/Sponsorships";
 import Contact from "./components/Contact";
 import Recap from "./components/Recap";
 import Hero from "./components/Hero";
-import Pricing from "./components/Pricing";
+import Pricing from "./components/Prizes";
 import Testimonials from "./components/Testimonials";
 
 import Footer from "./components/Footer";
