@@ -35,9 +35,7 @@ export default function App() {
           <div id="brands">
         <Brands />
       </div>
-      <div id="Faq">
-        <Faq />
-      </div>
+      
       <div id="testimonials">
         <Testimonials id="a" />
       </div>
@@ -47,6 +45,9 @@ export default function App() {
  
       <div id="contact">
         <Contact />
+      </div>
+      <div id="Faq">
+        <Faq />
       </div>
       <Footer />
       <ScrollToTop />
