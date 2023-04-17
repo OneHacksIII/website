@@ -27,8 +27,8 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12   ">
                   {/* This is a hackathon */}
-                  <span class="sm:text-sm md:text-base xl:text-xl text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
-                    <span class=" sm:text-sm md:text-base xl:text-xl font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">June 10th - 12th, 2023</span>
+                  <span class="sm:text-sm md:text-base xl:text-xl text-xs text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
+                    <span class=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">June 10th - 12th, 2023</span>
                     Fully online Hackathon</span>
 
                 </p>

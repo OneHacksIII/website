@@ -1,6 +1,8 @@
 import AboutSectionOne from "./components/About/AboutSectionOne";
 import AboutSectionTwo from "./components/About/AboutSectionTwo";
 import Brands from "./components/Brands";
+import Faq from "./components/Faq";
+
 import Contact from "./components/Contact";
 import Recap from "./components/Recap";
 import Hero from "./components/Hero";
@@ -32,6 +34,9 @@ export default function App() {
       </div>
           <div id="brands">
         <Brands />
+      </div>
+      <div id="Faq">
+        <Faq />
       </div>
       <div id="testimonials">
         <Testimonials id="a" />

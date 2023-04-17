@@ -1,4 +1,4 @@
-import SectionTitle from "../Common/SectionTitle";
+// import SectionTitle from "../Common/SectionTitle";
 
 
 const AboutSectionOne = () => {

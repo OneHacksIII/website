@@ -8,73 +8,35 @@ import "swiper/css/navigation";
 // import required modules
 
 import { Pagination, Navigation } from "swiper";
-const brandsData = [
+const faqs = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    question: "What is a hackathon?",
+    ans: "A hackathon is an event at where codersof all skill levels can come together and create a software project in a limited time.These events are perfect opportunities for you to grow your skills and create connections.",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    question: "Who can attend?",
+    ans: "The event is open to all high schoolers!",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    question: "Is this an individual event?",
+    ans: "No, you can have up to 4 people in a group.Bring some friends with you! If you do not have a group and want to be in one, there will be a group creating meeting after the opening ceremony.",
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    question: "Do I need prior experience?",
+    ans: "Nope! Anyone can attend and gain experience working in a coding environment.We'll have workshops and speakers for you to learn about coding languages and other aspects of CS.",
   },
-  {
-    id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 52,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 51,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 53,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 54,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 52,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
-  {
-    id: 522,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-  },
+
+  // {
+  //   id: 52,
+  //   name: "TailAdmin",
+  //   href: "https://tailadmin.com",
+  //   image: "/images/icons/globe.svg",
+  // },
+
 
 ];
 
@@ -90,18 +52,18 @@ const Brands = () => {
   };
   return (
 
-    <section className="bg-primary/[.03] pt-16">
+    <section className=" pt-16 ">
       < div className=" py-8" >
-        <h1 className=" text-5xl pr-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-right text-white">Sponsors</h1>
+        <h1 className=" text-5xl  sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white">FAQ</h1>
 
         <div className="grid place-items-center py-8">
 
-          <hr className="gradient-line w-4/5" />
+          <hr className="gradient-line w-3/5" />
         </div>
       </div >
       <div className="container">
         <div className="-mx-4 flex ">
-          <div className="w-full h-44 px-4 flex">
+          <div className=" max-w-full px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#0374ef" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -109,35 +71,48 @@ const Brands = () => {
 
             </button>
             <Swiper
+              // slidesPerView={3}
+              slidesPerView={"auto"}
 
-              slidesPerView={3}
               spaceBetween={15}
               onSwiper={(swiper) => setSwiperRef(swiper)}
+              // pagination={{
+              //   dynamicBullets: true,
+              //   clickable: true,
+              // }}
               pagination={{
-                clickable: true,
+                type: "progressbar",
               }}
-              autoHeight={true}
+              autoHeight={false}
               modules={[Pagination, Navigation]}
               className="mySwiper"
 
             >
-              {brandsData.map((brand) => {
-                const { href, image, name } = brand;
+              {faqs.map((faq) => {
+                const { question, ans } = faq;
 
                 return (
                   <>
 
-                    <SwiperSlide key={brand.id}>
+                    <SwiperSlide key={faq.id}>
                       {/* <div className="flex h-screen"> */}
-                      <div className="  w-full bg-blue-400 justify-center items-center">
-                        <a
-                          href={href}
-                          target="_blank"
-                          rel="nofollow noreferrer"
-                          className=" inline-flex grayscale w-full transition  hover:grayscale-0 opacity-60 hover:opacity-100"
+                      <div className="container   min-w-full max-w-sm hover:scale-105 transform transition">
+                        <div
+                          className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
+
                         >
-                          <img src={image} alt={name} />
-                        </a>
+
+
+
+                          <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
+                            {question}
+                          </h3>
+
+                          <p class="mt-4 text-sm text-left text-body-color">
+                            {ans}
+                          </p>
+                        </div>
+
                       </div>
                       {/* </div> */}
                     </SwiperSlide>

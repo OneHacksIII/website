@@ -116,7 +116,7 @@ const Brands = () => {
               spaceBetween={15}
               onSwiper={(swiper) => setSwiperRef(swiper)}
               pagination={{
-                clickable: true,
+                type: "progressbar",
               }}
               autoHeight={false}
               modules={[Pagination, Navigation]}
