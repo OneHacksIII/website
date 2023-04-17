@@ -3,11 +3,12 @@ import { useState } from "react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+
 import "swiper/css/navigation";
 
 // import required modules
 
-import { Pagination, Navigation } from "swiper";
+import { Mousewheel, Pagination, Navigation } from "swiper";
 const faqs = [
   {
     id: 1,
@@ -84,7 +85,7 @@ const Brands = () => {
                 type: "progressbar",
               }}
               autoHeight={false}
-              modules={[Pagination, Navigation]}
+              modules={[Pagination, Navigation, Mousewheel]}
               className="mySwiper"
 
             >

@@ -11,19 +11,22 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <a href="/" className="mb-8 inline-block">
+                <a href="/" className="mb-8 w-[50%] inline-block">
 
                   <img
-                    src="images/logo/logo.svg"
+                    src="images/logo/logo-2.png"
                     alt="logo"
                     className=" w-full block"
-                    width={140}
-                    height={30}
+
                   />
                 </a>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+
+
+                  Hack+ is a 501(c)(3) nonprofit organization established in California. They help students launch socially-impactful nonprofits and events through resources that include fiscal sponsorship.
+                  <br /><br />
+                  OneHacks is a fiscally-sponsored project of Hack+. This student-run organization is run by Leon Yee and Spencer He.
+
                 </p>
                 <div className="flex items-center">
                   <a
