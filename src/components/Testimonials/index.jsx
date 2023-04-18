@@ -1,34 +1,68 @@
 import SectionTitle from "../Common/SectionTitle";
-import SingleTestimonial from "./SingleTestimonial";
+import SinglePerson from "./SingleTestimonial";
 
-const testimonialData = [
+const teamData = [
   {
     id: 1,
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
-    star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    
     image: "/images/testimonials/auth-02.png",
-    star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+   
     image: "/images/testimonials/auth-03.png",
-    star: 5,
   },
+  {
+    id: 1,
+    name: "Musharof Chy",
+    designation: "Founder @TailGrids",
+    image: "/images/testimonials/auth-01.png",
+  },
+  {
+    id: 2,
+    name: "Devid Weilium",
+    designation: "Founder @UIdeck",
+    
+    image: "/images/testimonials/auth-02.png",
+  },
+  {
+    id: 3,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+   
+    image: "/images/testimonials/auth-03.png",
+  },
+  {
+    id: 1,
+    name: "Musharof Chy",
+    designation: "Founder @TailGrids",
+    image: "/images/testimonials/auth-01.png",
+  },
+  {
+    id: 2,
+    name: "Devid Weilium",
+    designation: "Founder @UIdeck",
+    
+    image: "/images/testimonials/auth-02.png",
+  },
+  {
+    id: 3,
+    name: "Lethium Frenci",
+    designation: "Founder @Lineicons",
+   
+    image: "/images/testimonials/auth-03.png",
+  },
+  
 ];
 
 const Testimonials = () => {
@@ -41,9 +75,9 @@ const Testimonials = () => {
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
+          {teamData.map((person) => (
+            <SinglePerson key={person.id} person={person} />
           ))}
         </div>
       </div>
