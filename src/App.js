@@ -7,11 +7,11 @@ import Contact from "./components/Contact";
 import Recap from "./components/Recap";
 import Hero from "./components/Hero";
 import Pricing from "./components/Prizes";
-import Testimonials from "./components/Testimonials";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
+import Team from "./components/Team";
 
 export default function App() {
   return (
@@ -38,8 +38,8 @@ export default function App() {
       </div>
       
       
-      <div id="testimonials">
-        <Testimonials id="a" />
+      <div id="Team">
+        <Team id="a" />
       </div>
       <div id="pricing">
         <Pricing />

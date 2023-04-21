@@ -1,4 +1,3 @@
-import SectionTitle from "../Common/SectionTitle";
 import SinglePerson from "./SingleTestimonial";
 
 const teamData = [
@@ -65,15 +64,11 @@ const teamData = [
   
 ];
 
-const Testimonials = () => {
+const Team = () => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+     
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
           {teamData.map((person) => (
@@ -213,4 +208,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Team;
