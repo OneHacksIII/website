@@ -3,7 +3,6 @@ import AboutSectionTwo from "./components/About/AboutSectionTwo";
 import Faq from "./components/Faq";
 import Sponsors from "./components/Sponsorships";
 
-import Contact from "./components/Contact";
 import Recap from "./components/Recap";
 import Hero from "./components/Hero";
 import Pricing from "./components/Prizes";
@@ -44,10 +43,7 @@ export default function App() {
       <div id="pricing">
         <Pricing />
       </div>
- 
-      <div id="contact">
-        <Contact />
-      </div>
+
       <div id="Faq">
         <Faq />
       </div>

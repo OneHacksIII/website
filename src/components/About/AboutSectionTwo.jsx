@@ -29,7 +29,7 @@ const AboutSectionTwo = () => {
         <div className="container max-w-xl hover:scale-125 transform transition">
           <a
             class="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
-            href="https://docs.google.com/document/d/1Lg8toVmoMXFa1zIjU5unczfWgWYMY8wKqZtm4j33_lc/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1FW-04RheVbWxUDLpkmxUOFWhQuChjrK3-yRTvDXmhdE/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
