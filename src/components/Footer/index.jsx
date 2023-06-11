@@ -24,8 +24,9 @@ const Footer = () => {
 
 
                   Hack+ is a 501(c)(3) nonprofit organization established in California. They help students launch socially-impactful nonprofits and events through resources that include fiscal sponsorship.
-                  <br /><br />
-                  OneHacks is a fiscally-sponsored project of Hack+. This student-run organization is run by Leon Yee and Spencer He.
+                  <br />
+                  <br />
+                  OneHacks is a fiscally-sponsored project of Hack+. This student-run organization is run by Daisy Zeng.
 
                 </p>
                 <div className="flex items-center">
