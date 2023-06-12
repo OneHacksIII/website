@@ -1,26 +1,38 @@
 const menuData = [
   {
+    id:420, 
+    title: "Home",
+    path: "/#home", 
+    newTab: false,
+  },
+  {
     id: 1,
-    title: "Features",
-    path: "/#features",
+    title: "Recap",
+    path: "/#Recap",
     newTab: false,
   },
   {
     id: 2,
-    title: "Brands",
-    path: "/#brands",
+    title: "Sponsors",
+    path: "/#Sponsorships",
+    newTab: false,
+  },
+  {
+    id: 69, 
+    title: "Prizes", 
+    path: "/#Prizes", 
     newTab: false,
   },
   {
     id: 33,
     title: "About",
-    path: "/#about",
+    path: "/#About",
     newTab: false,
   },
   {
     id: 3,
     title: "Team",
-    path: "/#team",
+    path: "/#Team",
     newTab: false,
   },
   {
