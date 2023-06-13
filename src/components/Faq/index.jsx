@@ -30,6 +30,18 @@ const faqs = [
     question: "Do I need prior experience?",
     ans: "Nope! Anyone can attend and gain experience working in a coding environment.We'll have workshops and speakers for you to learn about coding languages and other aspects of CS.",
   },
+  {
+    id: 5,
+    question: "Any prizes for winning?",
+    ans: "Yes, there are many prizes for the winners and will be announced soon. Additionally, you can view our Devpost page for general participant gifts.Everyone will get something",
+  },
+  {
+    id: 6,
+    question: "What is the theme?",
+    ans: "The theme will be released during the opening ceremony.",
+  },
+
+
 
   // {
   //   id: 52,
@@ -53,7 +65,7 @@ const Brands = () => {
   };
   return (
 
-    <section className=" pt-16 ">
+    <section className="pb-10 pt-16 ">
       < div className=" py-8" >
         <h1 className=" text-5xl  sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white">FAQ</h1>
 
@@ -143,6 +155,7 @@ const Brands = () => {
           </div>
         </div>
       </div >
+
     </section >
   );
 };
