@@ -36,13 +36,13 @@ const teamData = [
     designation: "Director of Technology",
     image: "/images/headshots/Aayan.png",
   },
-  {
-    id: 5,
-    name: "Joshua Abraham Upputuri",
-    designation: "Director of Finance",
+  // {
+  //   id: 5,
+  //   name: "Joshua Abraham Upputuri",
+  //   designation: "Director of Finance",
 
-    image: "/images/headshots/auth-02.png",
-  },
+  //   image: "/images/headshots/auth-02.png",
+  // },
   {
     id: 6,
     name: "Justin Shi",
