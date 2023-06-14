@@ -14,7 +14,7 @@ const teamData = [
     id: 1,
     name: "Daisy Zeng",
     designation: "Executive Director",
-    image: "/static/images/headshots/Daisy.jpg",
+    image: "/static/images/headshots/Daisy.png",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const teamData = [
     id: 7,
     name: "Litong Deng",
     designation: "Founder @TailGrids",
-    image: "/static/images/headshots/Litong.jpg",
+    image: "/static/images/headshots/Litong.png",
   }
 
 ];
