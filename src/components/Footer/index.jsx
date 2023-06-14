@@ -63,54 +63,55 @@ const Footer = () => {
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                <h2 className="mb-10 text-xl font-bold text-white">
+                  Organization
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/#Team"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      Team{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/#Sponsorships"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      Sponsors{" "}
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      About{" "}
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                <h2 className="mb-10 text-xl font-bold text-white">
+                  Event
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/#Resources"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      TOS{" "}
+                      Resources{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/#Schedule"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Schedule{" "}
                     </a>
                   </li>
                   <li>
@@ -119,16 +120,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Privacy Policy{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Refund Policy{" "}
+                      FAQ{" "}
                     </a>
                   </li>
                 </ul>
@@ -137,35 +129,35 @@ const Footer = () => {
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                <h2 className="mb-10 text-xl font-bold text-white">
+                  Support
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="mailto:info@onehacks.org"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Open Support Ticket{" "}
+                      info@onehacks.org{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://instagram.com/onehacksofficial"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      Instagram{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://onehacksiii.devpost.com"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      Devpost{" "}
                     </a>
                   </li>
                 </ul>

@@ -1,8 +1,8 @@
 const menuData = [
   {
-    id:420, 
+    id: 420,
     title: "Home",
-    path: "/#home", 
+    path: "/#home",
     newTab: false,
   },
   {
@@ -18,9 +18,9 @@ const menuData = [
     newTab: false,
   },
   {
-    id: 69, 
-    title: "Prizes", 
-    path: "/#Prizes", 
+    id: 69,
+    title: "Prizes",
+    path: "/#Prizes",
     newTab: false,
   },
   {
@@ -35,6 +35,13 @@ const menuData = [
     path: "/#Team",
     newTab: false,
   },
+  {
+    id: 3,
+    title: "FAQ",
+    path: "/#Faq",
+    newTab: false,
+  },
+
   {
     id: 5,
     title: "One Hacks II",

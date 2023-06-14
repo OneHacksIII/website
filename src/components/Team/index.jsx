@@ -1,74 +1,77 @@
 import SinglePerson from "./SingleTestimonial";
 
+/*
+Daisy - Executive Director
+Wesley - 
+Bryant -
+Aayan - Director of Technology
+Josh - Director of Finance
+Justin - Director of Logistics/Operations
+Litong - Director of Marketing 
+*/
 const teamData = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    image: "/images/testimonials/auth-01.png",
+    name: "Daisy Zeng",
+    designation: "Executive Director",
+    image: "/images/headshots/Daisy.jpg",
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    
-    image: "/images/testimonials/auth-02.png",
+    name: "Wesely Sun",
+    designation: "Co-Director",
+
+    image: "/images/headshots/wesley.png",
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-   
-    image: "/images/testimonials/auth-03.png",
+    name: "Bryant Wang",
+    designation: " Director of Sponsorships",
+
+    image: "/images/headshots/auth-03.png",
   },
   {
-    id: 1,
-    name: "Musharof Chy",
+    id: 4,
+    name: "Aayan Maheshwari",
+    designation: "Director of Technology",
+    image: "/images/headshots/Aayan.png",
+  },
+  {
+    id: 5,
+    name: "Joshua Abraham Upputuri",
+    designation: "Director of Finance",
+
+    image: "/images/headshots/auth-02.png",
+  },
+  {
+    id: 6,
+    name: "Justin Shi",
+    designation: "Director of Logistics/Operations",
+
+    image: "/images/headshots/auth-03.png",
+  },
+  {
+    id: 7,
+    name: "Litong Deng",
     designation: "Founder @TailGrids",
-    image: "/images/testimonials/auth-01.png",
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    
-    image: "/images/testimonials/auth-02.png",
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-   
-    image: "/images/testimonials/auth-03.png",
-  },
-  {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    image: "/images/testimonials/auth-01.png",
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    
-    image: "/images/testimonials/auth-02.png",
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-   
-    image: "/images/testimonials/auth-03.png",
-  },
-  
+    image: "/images/headshots/Litong.jpg",
+  }
+
 ];
 
 const Team = () => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
+      <div className=" py-8">
+        <h1 className=" text-5xl  sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white">Team</h1>
+
+        <div className="grid place-items-center py-8">
+
+          <hr className="gradient-line w-4/5" />
+        </div>
+      </div>
       <div className="container">
-     
+
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
           {teamData.map((person) => (

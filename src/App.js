@@ -24,15 +24,15 @@ export default function App() {
       </div>
 
     
-      <div id="about">
+      <div id="About">
         <AboutSectionOne />
       </div>
     
-      <div id="about-2">
+      <div id="Resources">
         <AboutSectionTwo />
       </div>
     
-       <div id="Sponsors">
+       <div id="Sponsorships">
         <Sponsors />
       </div>
       
@@ -40,7 +40,7 @@ export default function App() {
       <div id="Team">
         <Team id="a" />
       </div>
-      <div id="pricing">
+      <div id="Prizes">
         <Pricing />
       </div>
 
