@@ -14,47 +14,47 @@ const teamData = [
     id: 1,
     name: "Daisy Zeng",
     designation: "Executive Director",
-    image: "/images/headshots/Daisy.jpg",
+    image: "/static/images/headshots/Daisy.jpg",
   },
   {
     id: 2,
     name: "Wesely Sun",
     designation: "Co-Director",
 
-    image: "/images/headshots/wesley.png",
+    image: "/static/images/headshots/wesley.png",
   },
   {
     id: 3,
     name: "Bryant Wang",
     designation: " Director of Sponsorships",
 
-    image: "/images/headshots/auth-03.png",
+    image: "/static/images/headshots/auth-03.png",
   },
   {
     id: 4,
     name: "Aayan Maheshwari",
     designation: "Director of Technology",
-    image: "/images/headshots/Aayan.png",
+    image: "/static/images/headshots/Aayan.png",
   },
   // {
   //   id: 5,
   //   name: "Joshua Abraham Upputuri",
   //   designation: "Director of Finance",
 
-  //   image: "/images/headshots/auth-02.png",
+  //   image: "/static/images/headshots/auth-02.png",
   // },
   {
     id: 6,
     name: "Justin Shi",
     designation: "Director of Logistics/Operations",
 
-    image: "/images/headshots/auth-03.png",
+    image: "/static/images/headshots/auth-03.png",
   },
   {
     id: 7,
     name: "Litong Deng",
     designation: "Founder @TailGrids",
-    image: "/images/headshots/Litong.jpg",
+    image: "/static/images/headshots/Litong.jpg",
   }
 
 ];

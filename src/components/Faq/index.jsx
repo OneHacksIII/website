@@ -47,7 +47,7 @@ const faqs = [
   //   id: 52,
   //   name: "TailAdmin",
   //   href: "https://tailadmin.com",
-  //   image: "/images/icons/globe.svg",
+  //   image: "/static/images/icons/globe.svg",
   // },
 
 

@@ -2,7 +2,7 @@ const featuresData = [
   {
     id: 1,
     icon: (
-      <img alt="" src="/images/icons/person.svg" />
+      <img alt="" src="/static/images/icons/person.svg" />
     ),
     title: "300+",
     paragraph:
@@ -26,7 +26,7 @@ const featuresData = [
   {
     id: 1,
     icon: (
-      <img alt="" src="/images/icons/globe.svg"></img>
+      <img alt="" src="/static/images/icons/globe.svg"></img>
     ),
     title: "22",
     paragraph:

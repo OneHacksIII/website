@@ -36,7 +36,7 @@ const Footer = () => {
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
 
-                    <img width={25} src="/images/logo/devpost.svg" alt="" align="right" />
+                    <img width={25} src="/static/images/logo/devpost.svg" alt="" align="right" />
 
                   </a>
                   <a
@@ -45,7 +45,7 @@ const Footer = () => {
                     className="mr-6 text-[#CED3F6] "
                   >
 
-                    <img width={25} src="/images/logo/insta.svg" className="shadow-outline" alt="" align="right" />
+                    <img width={25} src="/static/images/logo/insta.svg" className="shadow-outline" alt="" align="right" />
 
                   </a>
                   <a
@@ -53,7 +53,7 @@ const Footer = () => {
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
-                    <img width={25} src="/images/logo/mail.svg" className="shadow-outline" alt="" align="right" />
+                    <img width={25} src="/static/images/logo/mail.svg" className="shadow-outline" alt="" align="right" />
 
                   </a>
 

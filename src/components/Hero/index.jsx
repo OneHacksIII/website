@@ -15,10 +15,10 @@ const Hero = () => {
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   {/* One Hacks III */}
-                  {/* <img src="/images/logo/logo-2.png" /> */}
+                  {/* <img src="/static/images/logo/logo-2.png" /> */}
 
                   <img
-                    src="/images/logo/logo-2.png"
+                    src="/static/images/logo/logo-2.png"
                     alt="logo"
                     // width={140}
                     // height={30}
@@ -58,7 +58,7 @@ const Hero = () => {
                   >
                     Join the discord
                     &nbsp;
-                    <img width={20} src="/images/logo/discord.svg" alt="" align="right" />
+                    <img width={20} src="/static/images/logo/discord.svg" alt="" align="right" />
 
 
                     {/* </div> */}
