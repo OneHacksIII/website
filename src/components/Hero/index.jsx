@@ -34,7 +34,9 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <a
-                    href="onehacksiii.devpost.com"
+                    href="https://onehacksiii.devpost.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Register on Devpost
@@ -42,12 +44,16 @@ const Hero = () => {
 
                   </a>
                   <a href="https://forms.gle/irVaw3TCGZJvtygc7"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Sign Up Here
                   </a>
                   <a
                     href="https://discord.gg/bugUsk5aZV"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="rounded-md  py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out  bg-white/20 text-white hover:bg-white/30"
                   >
                     Join the discord
