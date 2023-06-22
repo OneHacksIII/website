@@ -14,7 +14,7 @@ const teamData = [
     id: 1,
     name: "Daisy Zeng",
     designation: "Executive Director",
-    image: "/static/images/headshots/Daisy.png",
+    image: "/static/images/headshots/daisy.png",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const teamData = [
     id: 4,
     name: "Aayan Maheshwari",
     designation: "Director of Technology",
-    image: "/static/images/headshots/Aayan.png",
+    image: "/static/images/headshots/aayan.png",
   },
   // {
   //   id: 5,
