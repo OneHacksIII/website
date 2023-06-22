@@ -54,7 +54,7 @@ const teamData = [
     id: 7,
     name: "Litong Deng",
     designation: "Founder @TailGrids",
-    image: "/static/images/headshots/Litong.png",
+    image: "/static/images/headshots/litong.png",
   }
 
 ];
