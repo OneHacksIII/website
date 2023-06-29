@@ -56,7 +56,7 @@ const Hero = () => {
                     rel="noopener noreferrer"
                     className="rounded-md  py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out  bg-white/20 text-white hover:bg-white/30"
                   >
-                    Join the discord
+                    Join the Discord
                     &nbsp;
                     <img width={20} src="/static/images/logo/discord.svg" alt="" align="right" />
 

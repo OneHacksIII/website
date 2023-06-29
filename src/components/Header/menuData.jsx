@@ -44,7 +44,7 @@ const menuData = [
 
   {
     id: 5,
-    title: "One Hacks II",
+    title: "OneHacks II",
     path: "/II/",
     newTab: true,
   }

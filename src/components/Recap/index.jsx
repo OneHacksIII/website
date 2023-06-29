@@ -10,7 +10,7 @@ const Recap = () => {
       >
         <div className="container">
           <div className=" py-8">
-            <h1 className=" text-5xl pl-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left text-white">Recap Of OneHacks II</h1>
+            <h1 className=" text-5xl pl-[10%] sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left text-white">Recap of OneHacks II</h1>
 
             <div className="grid place-items-center py-8">
 
