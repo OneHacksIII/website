@@ -46,14 +46,14 @@ const teamData = [
   {
     id: 6,
     name: "Justin Shi",
-    designation: "Director of Logistics/Operations",
+    designation: "Director of Website Development",
 
-    image: "/static/images/headshots/auth-03.png",
+    image: "/static/images/headshots/justin.png",
   },
   {
     id: 7,
     name: "Litong Deng",
-    designation: "Founder @TailGrids",
+    designation: "Director of Marketing and Sponsorships",
     image: "/static/images/headshots/litong.png",
   }
 

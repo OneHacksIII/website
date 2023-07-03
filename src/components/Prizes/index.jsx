@@ -19,8 +19,8 @@ const Pricing = () => {
           className="block rounded-xl border  bg-[#ffffff14] shadow-xl "
 
         >
-          <h3 class="mt-3 px-4 text-4xl text-white  text-left font-bold">
-            1st Place
+          <h3 class="mt-3 px-4 text-4xl text-white  text-center font-bold" >
+            To Be Determined
           </h3>
           <div className=" p-4  sm:p-6 lg:p-8">
 
