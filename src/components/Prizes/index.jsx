@@ -4,7 +4,6 @@
 const Pricing = () => {
 
   return (
-
     <section className=" pt-16 ">
       < div className=" py-8" >
         <h1 className=" text-5xl grad-text sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white">PRIZES</h1>
@@ -16,17 +15,16 @@ const Pricing = () => {
       </div >
       <div className="container max-w-xl transform transition">
         <div
-          className="block rounded-xl border  bg-[#ffffff14] shadow-xl "
+          class="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
 
         >
-          <h3 class="mt-3 px-4 text-4xl text-white  text-center font-bold" >
-            To Be Determined
+
+
+          <h3 class="mt-3 text-5xl grad-text text-center font-bold">
+            Will Be Announced Soon...
           </h3>
-          <div className=" p-4  sm:p-6 lg:p-8">
 
 
-
-          </div>
         </div>
 
       </div>

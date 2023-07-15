@@ -29,7 +29,7 @@ const Hero = () => {
                   {/* This is a hackathon */}
                   <span class="sm:text-sm md:text-base xl:text-xl text-xs text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
                     <span class=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">June 10th - 12th, 2023</span>
-                    Fully online Hackathon</span>
+                    Fully Online Hackathon</span>
 
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
