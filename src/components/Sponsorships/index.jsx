@@ -37,13 +37,19 @@ const brandsData = [
     id: 5,
     name: "",
     href: "https://qoom.io",
-    image: "/static/images/sponsors/qoom.png",
+    image: "/static/images/sponsors/quoom.svg",
   },
   {
     id: 6,
     name: "",
     href: "https://taskade.com",
     image: "/static/images/sponsors/taskade.png",
+  },
+  {
+    id: 7,
+    name: "",
+    href: "https://www.interviewcake.com/",
+    image: "/static/images/sponsors/interviewcake.png",
   },
 
 
