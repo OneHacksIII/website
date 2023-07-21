@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="/" className="mb-8 w-[50%] inline-block">
 
                   <img
-                    src="images/logo/logo-2.png"
+                    src="static/images/logo/logo-2.png"
                     alt="logo"
                     className=" w-full block"
 
