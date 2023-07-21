@@ -15,7 +15,7 @@ const Pricing = () => {
       <div className="flex flex-wrap justify-center">
         {prizes.map((prize) => (
           <div className=" px-2 py-3  ">
-            <img src={`/static/images/prizes/${prize}.jpg`} alt="Prize" className="rounded-[50px] max-w-sm" />
+            <img src={`/static/images/prizes/${prize}.jpg`} alt="Prize" className="rounded-[50px] max-w-sm transition-all hover:scale-[120%]" />
           </div>
         ))}
       </div>
