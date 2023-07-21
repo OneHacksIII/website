@@ -1,6 +1,5 @@
 
-
-
+const prizes = ["1st", "2nd", "3rd", "beginner", "creative", "impact", "swag"]
 const Pricing = () => {
 
   return (
@@ -13,20 +12,12 @@ const Pricing = () => {
           <hr className="gradient-line w-3/5" />
         </div>
       </div >
-      <div className="container max-w-xl transform transition">
-        <div
-          class="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
-
-        >
-
-
-          <h3 class="mt-3 text-5xl grad-text text-center font-bold">
-            Will Be Announced Soon...
-          </h3>
-
-
-        </div>
-
+      <div className="flex flex-wrap justify-center">
+        {prizes.map((prize) => (
+          <div className=" px-2 py-3  ">
+            <img src={`/static/images/prizes/${prize}.jpg`} alt="Prize" className="rounded-[50px] max-w-sm" />
+          </div>
+        ))}
       </div>
     </section>
   );
