@@ -11,8 +11,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import Team from "./components/Team";
-
+import Schedule from "./components/schedule";
 export default function App() {
+
   return (
     <>
       <div className="bg-blue-200" id="home">
@@ -39,6 +40,9 @@ export default function App() {
       
       <div id="Team">
         <Team id="a" />
+      </div>
+      <div id="Schedule">
+        <Schedule />
       </div>
       <div id="Prizes">
         <Pricing />

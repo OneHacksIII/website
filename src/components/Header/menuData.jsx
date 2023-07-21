@@ -30,6 +30,12 @@ const menuData = [
     newTab: false,
   },
   {
+    id: 5,
+    title: "Schedule",
+    path: "/#Schedule",
+    newTab: true,
+  },
+  {
     id: 3,
     title: "Team",
     path: "/#Team",
@@ -47,6 +53,6 @@ const menuData = [
     title: "OneHacks II",
     path: "/II/",
     newTab: true,
-  }
+  },
 ];
 export default menuData;
