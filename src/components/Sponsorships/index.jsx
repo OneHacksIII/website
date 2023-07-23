@@ -10,6 +10,12 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 const brandsData = [
   {
+    id: 0,
+    name: "",
+    href: "https://www.wolfram.com/language/",
+    image: "/static/images/sponsors/meta.png",
+  },
+  {
     id: 1,
     name: "",
     href: "https://www.wolfram.com/language/",
