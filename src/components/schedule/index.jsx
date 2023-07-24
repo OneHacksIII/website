@@ -15,12 +15,15 @@ const Schedule = () => {
         </div>
       </div >
       <div className="container">
+        <h3 className="text-white" >*All Times in PST</h3>
 
         <div class="flex items-center justify-center">
           <img src="/static/images/schedule/schedule.png" alt="Schedule" class="max-w-full max-h-full" />
         </div>
+        <h3 className="text-white text-right" >*Workshops will be announched soon</h3>
 
       </div >
+
     </section >
   );
 };

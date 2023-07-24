@@ -12,7 +12,7 @@ const brandsData = [
   {
     id: 0,
     name: "",
-    href: "https://www.wolfram.com/language/",
+    href: "http://about.meta.com/",
     image: "/static/images/sponsors/meta.png",
   },
   {
