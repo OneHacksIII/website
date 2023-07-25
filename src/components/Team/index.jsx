@@ -38,13 +38,13 @@ const teamData = [
   },
   // {
   //   id: 5,
-  //   name: "Joshua Abraham Upputuri",
+  //   name: "Joshua Abraham Upputuri", mashallah may he rest in peace
   //   designation: "Director of Finance",
 
   //   image: "/static/images/headshots/auth-02.png",
   // },
   {
-    id: 6,
+      id: 6,
     name: "Justin Shi",
     designation: "Director of Website Development",
 
@@ -53,7 +53,7 @@ const teamData = [
   {
     id: 7,
     name: "Litong Deng",
-    designation: "Director of Marketing and Sponsorships",
+    designation: "Director of Marketing",
     image: "/static/images/headshots/litong.png",
   }
 

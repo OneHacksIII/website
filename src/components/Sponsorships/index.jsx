@@ -51,7 +51,18 @@ const brandsData = [
     href: "https://www.interviewcake.com/",
     image: "/static/images/sponsors/interviewcake.png",
   },
-
+  {
+    id: 8, 
+    name: "", 
+    href: "https://www.leading-learners.com/",
+    image: "/static/images/sponsors/white logo Leading Learners.png",
+  },
+  {
+    id: 9, 
+    name: "", 
+    href: "https://www.head-heart-hands.org/",
+    image: "/static/images/sponsors/heartsandhand.jpg",
+  },
 
 ];
 
