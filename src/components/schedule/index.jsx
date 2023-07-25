@@ -20,7 +20,7 @@ const Schedule = () => {
         <div class="flex items-center justify-center">
           <img src="/static/images/schedule/schedule.png" alt="Schedule" class="max-w-full max-h-full" />
         </div>
-        <h3 className="text-white text-right" >*Workshops will be announched soon</h3>
+        <h3 className="text-white text-right" >*Workshops will be announced soon</h3>
 
       </div >
 
