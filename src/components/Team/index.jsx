@@ -28,7 +28,7 @@ const teamData = [
     name: "Bryant Wang",
     designation: " Director of Sponsorships",
 
-    image: "/static/images/headshots/auth-03.png",
+    image: "/static/images/headshots/bryant.png",
   },
   {
     id: 4,
