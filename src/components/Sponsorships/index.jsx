@@ -66,7 +66,7 @@ const brandsData = [
   {
     id: 9, 
     name: "", 
-    href: "https://www.head-heart-hands.org/",
+    href: "https://www.hhh4good.org/",
     image: "/static/images/sponsors/heartsandhand.jpg",
   },
 
