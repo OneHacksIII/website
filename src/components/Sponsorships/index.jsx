@@ -58,16 +58,22 @@ const brandsData = [
     image: "/static/images/sponsors/interviewcake.png",
   },
   {
-    id: 8, 
-    name: "", 
+    id: 8,
+    name: "",
     href: "https://www.leading-learners.com/",
-    image: "/static/images/sponsors/white logo Leading Learners.png",
+    image: "/static/images/sponsors/learning.png",
   },
   {
-    id: 9, 
-    name: "", 
+    id: 9,
+    name: "",
     href: "https://www.hhh4good.org/",
     image: "/static/images/sponsors/heartsandhand.jpg",
+  },
+  {
+    id: 10,
+    name: "",
+    href: "https://1password.com/",
+    image: "/static/images/sponsors/1pwds.png",
   },
 
 ];
@@ -127,15 +133,15 @@ const Sponsors = () => {
 
                     <SwiperSlide key={sponsor.id}>
                       {/* <div className="flex h-screen"> */}
-                      <div className="container   min-w-full max-w-sm hover:scale-105 transform transition">
+                      <div className="container   min-w-full max-w-sm  hover:scale-105 transform transition">
                         <a
-                          className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
+                          className="justify-center rounded-xl border flex bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
                           href={sponsor.href}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
 
-                          <img src={sponsor.image} alt={sponsor.name} />
+                          <img src={sponsor.image} className="max-h-40" alt={sponsor.name} />
 
                           <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
                             {sponsor.name}
