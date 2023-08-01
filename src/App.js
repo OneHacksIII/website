@@ -12,6 +12,7 @@ import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import Team from "./components/Team";
 import Schedule from "./components/schedule";
+import Speakers  from "./components/Speakers";
 export default function App() {
 
   return (
@@ -43,6 +44,9 @@ export default function App() {
       </div>
       <div id="Schedule">
         <Schedule />
+      </div>
+      <div id="Speakers">
+        <Speakers />
       </div>
       <div id="Prizes">
         <Pricing />
