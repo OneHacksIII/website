@@ -75,7 +75,12 @@ const brandsData = [
     href: "https://1password.com/",
     image: "/static/images/sponsors/1pwds.png",
   },
-
+  {
+    id: 11,
+    name: "",
+    href: "https://www.crimsoneducation.org/us/",
+    image: "/static/images/sponsors/crimson.png",
+  },
 ];
 
 const Sponsors = () => {
