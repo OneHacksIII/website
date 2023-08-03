@@ -17,7 +17,7 @@ const Speakers = () => {
                     </div>
                     <div className="pl-10 pr-60">
                         <h1 className="grad-text text-5xl font-bold">Rolina Wu</h1>
-                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop-Workshop- Writing Meta Scale Software - How Coding Powers Meta’s Planetary Scale Applications
+                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - Writing Meta Scale Software - How Coding Powers Meta’s Planetary Scale Applications
                         </h1>
 
                         <h1 className="text-white text-xl">Rolina Wu is a software engineering in Meta. Her work mainly focuses on building scalable software for Meta’s Network. Join Rolina and Joseph on this crash course in the interactions that go behind the scenes when you launch Meta products and learn what it takes to develop software at Meta’s scale.
@@ -30,7 +30,7 @@ const Speakers = () => {
                     </div>
                     <div className="pl-10 pr-60">
                         <h1 className="grad-text text-5xl font-bold">Joseph Lu</h1>
-                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop- Workshop- Writing Meta Scale Software - How Coding Powers Meta’s Planetary Scale Applications
+                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - Writing Meta Scale Software - How Coding Powers Meta’s Planetary Scale Applications
                         </h1>
 
                         <h1 className="text-white text-xl">Joseph Lu is a software engineer at Meta. At Meta, Joseph focuses on building scalable Infra software. In this talk, Joseph will join Rolina to share his life at Meta and the challenges behind building software system to support massive scale of users."
