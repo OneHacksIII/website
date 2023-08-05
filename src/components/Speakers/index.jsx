@@ -51,6 +51,20 @@ const Speakers = () => {
                         </h1>
                     </div>
                 </div>
+                <br /><br /><br />
+                <div className="flex pl-40 flex-row items-center justify-center">
+                    <div>
+                        <img src="/static/images/speakers/4.jpg" alt="Speaker" className="rounded-full max-w-[200px]" />
+                    </div>
+                    <div className="pl-10 pr-60">
+                        <h1 className="grad-text text-5xl font-bold">Jacob MacMillan</h1>
+                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - Python Programming Primer</h1>
+
+                        <h1 className="text-white text-xl"> Mr. MacMillan is Valley Christian High School's programming teacher. Walk with Mr. MacMillan through a brief crash course in how to write code in the Python programming language. Learn what programming is and make a short number guessing game by the end of the workshop!
+
+                        </h1>
+                    </div>
+                </div>
 
             </div>
 
