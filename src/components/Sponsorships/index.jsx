@@ -84,7 +84,7 @@ const brandsData = [
   {
     id: 12,
     name: "",
-    href: "https://www.standoutstickers.com/",
+    href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
     image: "/static/images/sponsors/sticker.png",
   },
 ];
