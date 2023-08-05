@@ -25,8 +25,8 @@ const menuData = [
   },
   {
     id: 33,
-    title: "About",
-    path: "/#About",
+    title: "Speakers",
+    path: "/#Speakers",
     newTab: false,
   },
   {
