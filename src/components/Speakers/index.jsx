@@ -45,7 +45,7 @@ const Speakers = () => {
                     </div>
                     <div className="pl-10 pr-60">
                         <h1 className="grad-text text-5xl font-bold">Lillian Nose</h1>
-                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop- API's 101</h1>
+                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - API's 101</h1>
 
                         <h1 className="text-white text-xl">I'm Lillian Nose, a Developer Advocate for the Student Programs team at Postman. I'm a recent graduate with prior experience at Google, and lots of involvement with hackathons during my college years. My passion lies in working with students, providing them with opportunities to learn and explore the world of tech. In my workshop, "APIs 101," I aim to demystify the concept of APIs and share their significance in the modern tech landscape. Join me at OneHacks III as we embark on a journey to unlock the potential of APIs together.
                         </h1>
