@@ -65,7 +65,21 @@ const Speakers = () => {
                         </h1>
                     </div>
                 </div>
+                <br /><br /><br />
+                <div className="flex pl-40 flex-row items-center justify-center">
+                    <div>
+                        <img src="/static/images/speakers/5.jpg" alt="Speaker" className="rounded-full max-w-[200px]" />
+                    </div>
+                    <div className="pl-10 pr-60">
+                        <h1 className="grad-text text-5xl font-bold">Sammy</h1>
+                        <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - How to Make a Real User Login System</h1>
 
+                        <h1 className="text-white text-xl"> Sammy is incredibly passionate about coding and has been coding for years. She joined the Qoom team during the summer of 2021 looking to share that passion with others!
+
+
+                        </h1>
+                    </div>
+                </div>
             </div>
 
         </div>
