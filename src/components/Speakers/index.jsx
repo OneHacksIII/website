@@ -33,7 +33,7 @@ const Speakers = () => {
                         <h1 className="text-white pt-5 pb-3 text-2xl font-bold">Workshop - Writing Meta Scale Software - How Coding Powers Meta’s Planetary Scale Applications
                         </h1>
 
-                        <h1 className="text-white text-xl">Joseph Lu is a software engineer at Meta. At Meta, Joseph focuses on building scalable Infra software. In this talk, Joseph will join Rolina to share his life at Meta and the challenges behind building software system to support massive scale of users."
+                        <h1 className="text-white text-xl">Joseph Lu is a software engineer at Meta. At Meta, Joseph focuses on building scalable Infra software. In this talk, Joseph will join Rolina to share his life at Meta and the challenges behind building software system to support massive scale of users.
 
                         </h1>
                     </div>

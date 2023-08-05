@@ -18,7 +18,7 @@ const teamData = [
   },
   {
     id: 2,
-    name: "Wesely Sun",
+    name: "Wesley Sun",
     designation: "Co-Director",
 
     image: "/static/images/headshots/wesley.png",
@@ -44,7 +44,7 @@ const teamData = [
   //   image: "/static/images/headshots/auth-02.png",
   // },
   {
-      id: 6,
+    id: 6,
     name: "Justin Shi",
     designation: "Director of Website Development",
 
