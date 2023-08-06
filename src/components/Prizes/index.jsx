@@ -1,5 +1,5 @@
 
-const prizes = ["1st", "2nd", "3rd", "beginner", "creative", "impact", "swag"]
+const prizes = ["1st", "2nd", "3rd", "beginner", "creative", "impact", "qoom", "swag", "raffle"]
 const Pricing = () => {
 
   return (
@@ -15,10 +15,21 @@ const Pricing = () => {
       <div className="flex flex-wrap justify-center">
         {prizes.map((prize) => (
           <div className=" px-2 py-3  ">
-            <img src={`/static/images/prizes/${prize}.jpg`} alt="Prize" className="rounded-[50px] max-w-sm transition-all hover:scale-[110%]" />
+            <img src={`/static/images/prizes/${prize}.png`} alt="Prize" className="rounded-[50px] max-h-[20rem] transition-all hover:scale-[105%]" />
           </div>
         ))}
+
       </div>
+
+      <div className="pr-[20%]">
+
+        <h3 className="text-white text-right" >
+
+          *Prizes may be subject to change </h3>
+
+
+      </div>
+
     </section>
   );
 };
