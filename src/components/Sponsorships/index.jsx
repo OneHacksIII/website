@@ -87,6 +87,12 @@ const brandsData = [
     href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
     image: "/static/images/sponsors/sticker.png",
   },
+  {
+    id: 13,
+    name: "",
+    href: "https://artofproblemsolving.com/",
+    image: "/static/images/sponsors/aops.png",
+  },
 ];
 
 const Sponsors = () => {
