@@ -48,11 +48,6 @@ const menuData = [
     newTab: false,
   },
 
-  {
-    id: 5,
-    title: "OneHacks II",
-    path: "/II/",
-    newTab: true,
-  },
+
 ];
 export default menuData;
