@@ -9,90 +9,90 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
 const brandsData = [
-  {
-    id: 0,
-    name: "",
-    href: "http://about.meta.com/",
-    image: "/static/images/sponsors/meta.png",
-  },
-  {
-    id: 1,
-    name: "",
-    href: "https://www.wolfram.com/language/",
-    image: "/static/images/sponsors/wplfram.png",
-  },
+  // {
+  //   id: 0,
+  //   name: "",
+  //   href: "http://about.meta.com/",
+  //   image: "/static/images/sponsors/meta.png",
+  // },
+  // {
+  //   id: 1,
+  //   name: "",
+  //   href: "https://www.wolfram.com/language/",
+  //   image: "/static/images/sponsors/wplfram.png",
+  // },
   {
     id: 2,
     name: "",
     href: "https://hackplus.io",
     image: "/static/images/sponsors/hackplus.png",
   },
-  {
-    id: 3,
-    name: "",
-    href: "https://echo3d.com",
-    image: "/static/images/sponsors/echo3d.png",
-  },
+  // {
+  //   id: 3,
+  //   name: "",
+  //   href: "https://echo3d.com",
+  //   image: "/static/images/sponsors/echo3d.png",
+  // },
   {
     id: 4,
     name: "",
     href: "https://balsamiq.com",
     image: "/static/images/sponsors/baslamiq.png",
   },
-  {
-    id: 5,
-    name: "",
-    href: "https://qoom.io",
-    image: "/static/images/sponsors/quoom.svg",
-  },
-  {
-    id: 6,
-    name: "",
-    href: "https://taskade.com",
-    image: "/static/images/sponsors/taskade.png",
-  },
-  {
-    id: 7,
-    name: "",
-    href: "https://www.interviewcake.com/",
-    image: "/static/images/sponsors/interviewcake.png",
-  },
-  {
-    id: 8,
-    name: "",
-    href: "https://www.leading-learners.com/",
-    image: "/static/images/sponsors/learning.png",
-  },
-  {
-    id: 9,
-    name: "",
-    href: "https://www.hhh4good.org/",
-    image: "/static/images/sponsors/heartsandhand.jpg",
-  },
-  {
-    id: 10,
-    name: "",
-    href: "https://1password.com/",
-    image: "/static/images/sponsors/1pwds.png",
-  },
-  {
-    id: 11,
-    name: "",
-    href: "https://www.crimsoneducation.org/us/",
-    image: "/static/images/sponsors/crimson.png",
-  },
-  {
-    id: 12,
-    name: "",
-    href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
-    image: "/static/images/sponsors/sticker.png",
-  },
-  {
-    id: 13,
-    name: "",
-    href: "https://artofproblemsolving.com/",
-    image: "/static/images/sponsors/aops.png",
-  },
+  // {
+  //   id: 5,
+  //   name: "",
+  //   href: "https://qoom.io",
+  //   image: "/static/images/sponsors/quoom.svg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "",
+  //   href: "https://taskade.com",
+  //   image: "/static/images/sponsors/taskade.png",
+  // },
+  // {
+  //   id: 7,
+  //   name: "",
+  //   href: "https://www.interviewcake.com/",
+  //   image: "/static/images/sponsors/interviewcake.png",
+  // },
+  // {
+  //   id: 8,
+  //   name: "",
+  //   href: "https://www.leading-learners.com/",
+  //   image: "/static/images/sponsors/learning.png",
+  // },
+  // {
+  //   id: 9,
+  //   name: "",
+  //   href: "https://www.hhh4good.org/",
+  //   image: "/static/images/sponsors/heartsandhand.jpg",
+  // },
+  // {
+  //   id: 10,
+  //   name: "",
+  //   href: "https://1password.com/",
+  //   image: "/static/images/sponsors/1pwds.png",
+  // },
+  // {
+  //   id: 11,
+  //   name: "",
+  //   href: "https://www.crimsoneducation.org/us/",
+  //   image: "/static/images/sponsors/crimson.png",
+  // },
+  // {
+  //   id: 12,
+  //   name: "",
+  //   href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
+  //   image: "/static/images/sponsors/sticker.png",
+  // },
+  // {
+  //   id: 13,
+  //   name: "",
+  //   href: "https://artofproblemsolving.com/",
+  //   image: "/static/images/sponsors/aops.png",
+  // },
 ];
 
 const Sponsors = () => {

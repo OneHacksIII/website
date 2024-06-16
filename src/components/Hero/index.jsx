@@ -28,13 +28,13 @@ const Hero = () => {
                 <p className="mb-12   ">
                   {/* This is a hackathon */}
                   <span class="sm:text-sm md:text-base xl:text-xl text-xs text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
-                    <span class=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">August 5th - 7th, 2023</span>
+                    <span class=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">August 3rd - 10th, 2024</span>
                     Fully Online Hackathon</span>
 
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <a
-                    href="https://onehacksiii.devpost.com"
+                    href="https://onehacksiv.devpost.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -43,7 +43,7 @@ const Hero = () => {
 
 
                   </a>
-                  <a href="https://forms.gle/irVaw3TCGZJvtygc7"
+                  <a href="https://forms.gle/XoF4mUbtL1pyLKGy7	"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"

@@ -31,7 +31,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://onehacksiii.devpost.com"
+                    href="https://onehacksiv.devpost.com"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -153,7 +153,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://onehacksiii.devpost.com"
+                      href="https://onehacksiv.devpost.com"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}

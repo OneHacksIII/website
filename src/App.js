@@ -42,7 +42,7 @@ export default function App() {
       <div id="Team">
         <Team id="a" />
       </div>
-      <div id="Schedule">
+      {/* <div id="Schedule">
         <Schedule />
       </div>
       <div id="Speakers">
@@ -50,7 +50,7 @@ export default function App() {
       </div>
       <div id="Prizes">
         <Pricing />
-      </div>
+      </div> */}
 
       <div id="Faq">
         <Faq />

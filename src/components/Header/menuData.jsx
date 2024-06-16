@@ -17,24 +17,24 @@ const menuData = [
     path: "/#Sponsorships",
     newTab: false,
   },
-  {
-    id: 69,
-    title: "Prizes",
-    path: "/#Prizes",
-    newTab: false,
-  },
-  {
-    id: 33,
-    title: "Speakers",
-    path: "/#Speakers",
-    newTab: false,
-  },
-  {
-    id: 5,
-    title: "Schedule",
-    path: "/#Schedule",
-    newTab: true,
-  },
+  // {
+  //   id: 69,
+  //   title: "Prizes",
+  //   path: "/#Prizes",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 33,
+  //   title: "Speakers",
+  //   path: "/#Speakers",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Schedule",
+  //   path: "/#Schedule",
+  //   newTab: true,
+  // },
   {
     id: 3,
     title: "Team",
