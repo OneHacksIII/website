@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import Team from "./components/Team";
+import FullRecap from "./components/FullRecap";
 import Schedule from "./components/schedule";
 import Speakers  from "./components/Speakers";
 import { useEffect, useState } from "react";
@@ -85,6 +86,11 @@ export default function App() {
         </div>
       </>
       }
+
+      {isFullRecap &&
+        <div id="fullrecap">
+          <FullRecap />
+    </div >}
       <Footer />
       <ScrollToTop />
 
