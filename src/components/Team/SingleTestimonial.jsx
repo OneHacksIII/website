@@ -12,8 +12,8 @@ const SinglePerson = ({ person }) => {
         data-wow-delay=".1s"
       >
 
-        <div className="content-center text-center items-center">
-          <div className="relative mr-4 h-[200px]  overflow-hidden rounded-full mx-[10%]">
+        <div className="content-center text-center  items-center">
+          <div className="relative mr-4 h-[200px] mx-[auto] overflow-hidden">
             <img className="" src={image} width={200} alt={name} />
           </div>
           <div className="w-full">

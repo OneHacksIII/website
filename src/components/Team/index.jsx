@@ -36,13 +36,13 @@ const teamData = [
     designation: "Director of Technology",
     image: "/static/images/headshots/aayan.png",
   },
-  // {
-  //   id: 5,
-  //   name: "Joshua Abraham Upputuri", mashallah may he rest in peace
-  //   designation: "Director of Finance",
+  {
+    id: 5,
+    name: "Gloria Ma",
+    designation: "Director of Gloriaing",
 
-  //   image: "/static/images/headshots/auth-02.png",
-  // },
+    image: "/static/images/headshots/gloria.png",
+  },
   {
     id: 6,
     name: "Justin Shi",
