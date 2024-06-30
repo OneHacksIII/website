@@ -160,7 +160,7 @@ const Sponsors = () => {
 
                           <img src={sponsor.image} className="max-h-40" alt={sponsor.name} />
 
-                          <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
+                          <h3 className="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
                             {sponsor.name}
                           </h3>
 

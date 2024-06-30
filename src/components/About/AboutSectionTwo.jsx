@@ -6,7 +6,7 @@ const AboutSectionTwo = () => {
       <div className=" grid grid-cols-1  gap-y-10 md:grid-cols-2 lg:grid-cols-2">
         <div className="container max-w-xl hover:scale-125 transform transition">
           <a
-            class="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
+            className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
             href="https://docs.google.com/document/d/1sBqzqpSZehP1W03Dgosr0NeHTZ-4czZUuI7IlYx_2VA/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
@@ -16,11 +16,11 @@ const AboutSectionTwo = () => {
             </svg>
 
 
-            <h3 class="mt-3 text-lg grad-text font-bold sm:text-xl">
+            <h3 className="mt-3 text-lg grad-text font-bold sm:text-xl">
               The Hackers Guide
             </h3>
 
-            <p class="mt-4 text-sm text-body-color">
+            <p className="mt-4 text-sm text-body-color">
               The Hacker's Guide can be used to guide your projects. This includes a grading rubric for your projects and a schedule for the event.
             </p>
           </a>
@@ -28,7 +28,7 @@ const AboutSectionTwo = () => {
         </div>
         <div className="container max-w-xl hover:scale-125 transform transition">
           <a
-            class="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
+            className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
             href="https://docs.google.com/document/d/1sBqzqpSZehP1W03Dgosr0NeHTZ-4czZUuI7IlYx_2VA/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
@@ -38,11 +38,11 @@ const AboutSectionTwo = () => {
             </svg>
 
 
-            <h3 class="mt-3 text-lg grad-text font-bold sm:text-xl">
+            <h3 className="mt-3 text-lg grad-text font-bold sm:text-xl">
               Rules
             </h3>
 
-            <p class="mt-4 text-sm text-body-color">
+            <p className="mt-4 text-sm text-body-color">
               Here are the rules to check your eligibility for this hackathon. Visit our devpost page for more information about our event.
             </p>
           </a>

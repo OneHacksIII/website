@@ -13,8 +13,8 @@ const SinglePerson = ({ person }) => {
       >
 
         <div className="content-center text-center items-center">
-          <div className="relative mr-4 h-[200px] mx-auto overflow-hidden rounded-full">
-            <img className="mx-[10%]" src={image} width={200} alt={name} />
+          <div className="relative mr-4 h-[200px]  overflow-hidden rounded-full mx-[10%]">
+            <img className="" src={image} width={200} alt={name} />
           </div>
           <div className="w-full">
             <h5 className="mb-1 text-lg font-semibold text-white lg:text xl:text-lg ">

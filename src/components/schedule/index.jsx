@@ -17,8 +17,8 @@ const Schedule = () => {
       <div className="container">
         <h3 className="text-white" >*All Times in PST</h3>
 
-        <div class="flex items-center justify-center">
-          <img src="/static/images/schedule/schedule.png" alt="Schedule" class="max-w-full max-h-full" />
+        <div className="flex items-center justify-center">
+          <img src="/static/images/schedule/schedule.png" alt="Schedule" className="max-w-full max-h-full" />
         </div>
         {/* <h3 className="text-white text-right" >*Workshops will be announced soon</h3> */}
 

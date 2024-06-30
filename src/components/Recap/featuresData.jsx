@@ -9,7 +9,7 @@ const featuresData = [
       "Total Online Participants",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -24,7 +24,7 @@ const featuresData = [
       "Total Projects Submitted",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <img alt="" src="/static/images/icons/globe.svg"></img>
     ),

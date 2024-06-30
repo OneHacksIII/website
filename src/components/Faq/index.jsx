@@ -117,11 +117,11 @@ const Brands = () => {
 
 
 
-                          <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
+                          <h3 className="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
                             {question}
                           </h3>
 
-                          <p class="mt-4 text-sm text-left text-body-color">
+                          <p className="mt-4 text-sm text-left text-body-color">
                             {ans}
                           </p>
                         </div>
