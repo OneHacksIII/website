@@ -10,23 +10,11 @@ Justin - Director of Logistics/Operations
 Litong - Director of Marketing 
 */
 const teamData = [
-  {
-    id: 1,
-    name: "Daisy Zeng",
-    designation: "Executive Director",
-    image: "/static/images/headshots/daisy.png",
-  },
-  {
-    id: 2,
-    name: "Wesley Sun",
-    designation: "Co-Director",
 
-    image: "/static/images/headshots/wesley.png",
-  },
   {
     id: 3,
     name: "Bryant Wang",
-    designation: " Director of Sponsorships",
+    designation: "Executive Director",
 
     image: "/static/images/headshots/bryant.png",
   },
@@ -39,7 +27,7 @@ const teamData = [
   {
     id: 5,
     name: "Gloria Ma",
-    designation: "Director of Gloriaing",
+    designation: "Director of Sponsorships",
 
     image: "/static/images/headshots/gloria.png",
   },
@@ -55,7 +43,20 @@ const teamData = [
     name: "Litong Deng",
     designation: "Director of Marketing",
     image: "/static/images/headshots/litong.png",
-  }
+  },
+  {
+    id: 2,
+    name: "Weseley Sun",
+    designation: "Advisor",
+
+    image: "/static/images/headshots/wesley.png",
+  },
+  {
+    id: 1,
+    name: "Daisy Zeng",
+    designation: "Advisor",
+    image: "/static/images/headshots/daisy.png",
+  },
 
 ];
 

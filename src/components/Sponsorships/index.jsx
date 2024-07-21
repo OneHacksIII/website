@@ -51,12 +51,12 @@ const brandsData = [
   //   href: "https://taskade.com",
   //   image: "/static/images/sponsors/taskade.png",
   // },
-  // {
-  //   id: 7,
-  //   name: "",
-  //   href: "https://www.interviewcake.com/",
-  //   image: "/static/images/sponsors/interviewcake.png",
-  // },
+  {
+    id: 7,
+    name: "",
+    href: "https://www.interviewcake.com/",
+    image: "/static/images/sponsors/interviewcake.png",
+  },
   // {
   //   id: 8,
   //   name: "",
@@ -69,12 +69,12 @@ const brandsData = [
   //   href: "https://www.hhh4good.org/",
   //   image: "/static/images/sponsors/heartsandhand.jpg",
   // },
-  // {
-  //   id: 10,
-  //   name: "",
-  //   href: "https://1password.com/",
-  //   image: "/static/images/sponsors/1pwds.png",
-  // },
+  {
+    id: 10,
+    name: "",
+    href: "https://1password.com/",
+    image: "/static/images/sponsors/1pwds.png",
+  },
   // {
   //   id: 11,
   //   name: "",
@@ -87,12 +87,24 @@ const brandsData = [
   //   href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
   //   image: "/static/images/sponsors/sticker.png",
   // },
-  // {
-  //   id: 13,
-  //   name: "",
-  //   href: "https://artofproblemsolving.com/",
-  //   image: "/static/images/sponsors/aops.png",
-  // },
+  {
+    id: 1133,
+    name: "",
+    href: "https://codehs.org/",
+    image: "/static/images/sponsors/codehs.jpg",
+  },
+  {
+    id: 133,
+    name: "",
+    href: "https://postman.com/",
+    image: "/static/images/sponsors/postman.png",
+  },
+  {
+    id: 13,
+    name: "",
+    href: "https://artofproblemsolving.com/",
+    image: "/static/images/sponsors/aops.png",
+  },
 ];
 
 const Sponsors = () => {
