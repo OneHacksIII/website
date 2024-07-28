@@ -97,7 +97,7 @@ const brandsData = [
     id: 12233,
     name: "",
     href: "https://postman.com/",
-    image: "/static/images/sponsors/postman.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
   },
   {
     id: 13,
