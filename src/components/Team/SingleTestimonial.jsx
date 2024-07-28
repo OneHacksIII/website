@@ -11,13 +11,12 @@ const SinglePerson = ({ person }) => {
         className="wow fadeInUp rounded-md p-8 shadow-one bg-[#040610] hover:bg-dark hover:scale-105 transition lg:px-5 xl:px-8"
         data-wow-delay=".1s"
       >
-
-        <div className="content-center text-center  items-center">
-          <div className="relative mr-4 h-[200px] mx-[auto] overflow-hidden">
-            <img className="" src={image} width={200} alt={name} />
+        <div className="flex flex-col items-center content-center text-center">
+          <div className="relative h-[200px] w-[200px] overflow-hidden">
+            <img className="mx-auto" src={image} width={200} alt={name} />
           </div>
           <div className="w-full">
-            <h5 className="mb-1 text-lg font-semibold text-white lg:text xl:text-lg ">
+            <h5 className="mb-1 text-lg font-semibold text-white lg:text-xl">
               {name}
             </h5>
             <p className="text-xs text-center text-body-color">{designation}</p>
@@ -25,6 +24,7 @@ const SinglePerson = ({ person }) => {
         </div>
       </div>
     </div>
+
   );
 };
 
