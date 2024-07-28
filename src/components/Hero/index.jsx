@@ -28,7 +28,7 @@ const Hero = () => {
                 <p className="mb-12   ">
                   {/* This is a hackathon */}
                   <span className="sm:text-sm md:text-base xl:text-xl text-xs text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
-                    <span className=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">August 3rd - 10th, 2024</span>
+                    <span className=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">August 29th - September 5th, 2024</span>
                     Fully Online Hackathon</span>
 
                 </p>
