@@ -9,83 +9,95 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
 const brandsData = [
-  {
-    id: 0,
-    name: "",
-    href: "http://about.meta.com/",
-    image: "/static/images/sponsors/meta.png",
-  },
-  {
-    id: 1,
-    name: "",
-    href: "https://www.wolfram.com/language/",
-    image: "/static/images/sponsors/wplfram.png",
-  },
+  // {
+  //   id: 0,
+  //   name: "",
+  //   href: "http://about.meta.com/",
+  //   image: "/static/images/sponsors/meta.png",
+  // },
+  // {
+  //   id: 1,
+  //   name: "",
+  //   href: "https://www.wolfram.com/language/",
+  //   image: "/static/images/sponsors/wplfram.png",
+  // },
   {
     id: 2,
     name: "",
     href: "https://hackplus.io",
     image: "/static/images/sponsors/hackplus.png",
   },
-  {
-    id: 3,
-    name: "",
-    href: "https://echo3d.com",
-    image: "/static/images/sponsors/echo3d.png",
-  },
+  // {
+  //   id: 3,
+  //   name: "",
+  //   href: "https://echo3d.com",
+  //   image: "/static/images/sponsors/echo3d.png",
+  // },
   {
     id: 4,
     name: "",
     href: "https://balsamiq.com",
     image: "/static/images/sponsors/baslamiq.png",
   },
-  {
-    id: 5,
-    name: "",
-    href: "https://qoom.io",
-    image: "/static/images/sponsors/quoom.svg",
-  },
-  {
-    id: 6,
-    name: "",
-    href: "https://taskade.com",
-    image: "/static/images/sponsors/taskade.png",
-  },
+  // {
+  //   id: 5,
+  //   name: "",
+  //   href: "https://qoom.io",
+  //   image: "/static/images/sponsors/quoom.svg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "",
+  //   href: "https://taskade.com",
+  //   image: "/static/images/sponsors/taskade.png",
+  // },
   {
     id: 7,
     name: "",
     href: "https://www.interviewcake.com/",
     image: "/static/images/sponsors/interviewcake.png",
   },
-  {
-    id: 8,
-    name: "",
-    href: "https://www.leading-learners.com/",
-    image: "/static/images/sponsors/learning.png",
-  },
-  {
-    id: 9,
-    name: "",
-    href: "https://www.hhh4good.org/",
-    image: "/static/images/sponsors/heartsandhand.jpg",
-  },
+  // {
+  //   id: 8,
+  //   name: "",
+  //   href: "https://www.leading-learners.com/",
+  //   image: "/static/images/sponsors/learning.png",
+  // },
+  // {
+  //   id: 9,
+  //   name: "",
+  //   href: "https://www.hhh4good.org/",
+  //   image: "/static/images/sponsors/heartsandhand.jpg",
+  // },
   {
     id: 10,
     name: "",
     href: "https://1password.com/",
     image: "/static/images/sponsors/1pwds.png",
   },
+  // {
+  //   id: 11,
+  //   name: "",
+  //   href: "https://www.crimsoneducation.org/us/",
+  //   image: "/static/images/sponsors/crimson.png",
+  // },
+  // {
+  //   id: 12,
+  //   name: "",
+  //   href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
+  //   image: "/static/images/sponsors/sticker.png",
+  // },
   {
-    id: 11,
+    id: 1133,
     name: "",
-    href: "https://www.crimsoneducation.org/us/",
-    image: "/static/images/sponsors/crimson.png",
+    href: "https://codehs.org/",
+    image: "/static/images/sponsors/codehs.jpg",
   },
   {
-    id: 12,
+    id: 12233,
     name: "",
-    href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
-    image: "/static/images/sponsors/sticker.png",
+    href: "https://postman.com/",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
   },
   {
     id: 13,
@@ -120,7 +132,7 @@ const Sponsors = () => {
         <div className="-mx-4 flex ">
           <div className=" max-w-full px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#0374ef" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
 
@@ -160,7 +172,7 @@ const Sponsors = () => {
 
                           <img src={sponsor.image} className="max-h-40" alt={sponsor.name} />
 
-                          <h3 class="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
+                          <h3 className="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
                             {sponsor.name}
                           </h3>
 
@@ -178,7 +190,7 @@ const Sponsors = () => {
 
             </Swiper>
             <button onClick={nextHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#0374ef" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
 

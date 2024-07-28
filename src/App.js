@@ -11,38 +11,67 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import Team from "./components/Team";
+import FullRecap from "./components/FullRecap";
 import Schedule from "./components/schedule";
 import Speakers  from "./components/Speakers";
-export default function App() {
+import { useEffect, useState } from "react";
 
+export default function App() {
+  const [isFullRecap, setIsFullRecap] = useState(false);
+  useEffect(() => {
+    // console.log(window.location.href);
+    if (window.location.href.includes("#")) {
+      const id = window.location.href.split("#")[1];
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    }
+    const urlParts = window.location.href.split("/");
+    const lastPart = urlParts[urlParts.length - 1].toLowerCase();
+    
+    if (lastPart.includes("fullrecap")) {
+      setIsFullRecap(true);
+      
+    }
+    else {
+      setIsFullRecap(false);
+    }
+    // if()
+
+  }, [window.location.href]);
   return (
     <>
       <div className="bg-blue-200" id="home">
         <Header />
         <Hero />
       </div>
-      <div id="Recap">
-        <Recap />
-      </div>
+      {!isFullRecap && <>
+        <div id="Recap">
+          <Recap />
+        </div>
 
     
-      <div id="About">
-        <AboutSectionOne />
-      </div>
+        <div id="About">
+          <AboutSectionOne />
+        </div>
     
-      <div id="Resources">
-        <AboutSectionTwo />
-      </div>
+        <div id="Resources">
+          <AboutSectionTwo />
+        </div>
     
-       <div id="Sponsorships">
-        <Sponsors />
-      </div>
+        <div id="Sponsorships">
+          <Sponsors />
+        </div>
       
       
-      <div id="Team">
-        <Team id="a" />
-      </div>
-      <div id="Schedule">
+        <div id="Team">
+          <Team id="a" />
+        </div>
+        
+        {/* <div id="Schedule">
         <Schedule />
       </div>
       <div id="Speakers">
@@ -50,11 +79,18 @@ export default function App() {
       </div>
       <div id="Prizes">
         <Pricing />
-      </div>
+      </div> */}
 
-      <div id="Faq">
-        <Faq />
-      </div>
+        <div id="Faq">
+          <Faq />
+        </div>
+      </>
+      }
+
+      {isFullRecap &&
+        <div id="fullrecap">
+          <FullRecap />
+    </div >}
       <Footer />
       <ScrollToTop />
 
