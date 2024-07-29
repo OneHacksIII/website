@@ -4,7 +4,7 @@ const featuresData = [
     icon: (
       <img alt="" src="/static/images/icons/person.svg" />
     ),
-    title: "480+",
+    title: "574",
     paragraph:
       "Total Online Participants",
   },
