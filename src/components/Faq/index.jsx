@@ -13,12 +13,12 @@ const faqs = [
   {
     id: 1,
     question: "What is a hackathon?",
-    ans: "A hackathon is an event at where codersof all skill levels can come together and create a software project in a limited time.These events are perfect opportunities for you to grow your skills and create connections.",
+    ans: "A hackathon is an event at where coders of all skill levels can come together and create a software project in a limited time. These events are perfect opportunities for you to grow your skills and create connections.",
   },
   {
     id: 2,
     question: "Who can attend?",
-    ans: "The event is open to all high schoolers!",
+    ans: "The event is open to all high schoolers(just enetering/graduated)!",
   },
   {
     id: 3,
@@ -28,12 +28,12 @@ const faqs = [
   {
     id: 4,
     question: "Do I need prior experience?",
-    ans: "Nope! Anyone can attend and gain experience working in a coding environment.We'll have workshops and speakers for you to learn about coding languages and other aspects of CS.",
+    ans: "Nope! Anyone can attend and gain experience working in a coding environment. We'll have workshops and speakers for you to learn about coding languages and other aspects of CS.",
   },
   {
     id: 5,
     question: "Any prizes for winning?",
-    ans: "Yes, there are many prizes for the winners and will be announced soon. Additionally, you can view our Devpost page for general participant gifts.Everyone will get something",
+    ans: "Yes, there are many prizes for the winners and will be announced soon. Additionally, you can view our Devpost page for general participant gifts. Everyone will get something",
   },
   {
     id: 6,
