@@ -81,12 +81,12 @@ const brandsData = [
   //   href: "https://www.crimsoneducation.org/us/",
   //   image: "/static/images/sponsors/crimson.png",
   // },
-  // {
-  //   id: 12,
-  //   name: "",
-  //   href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
-  //   image: "/static/images/sponsors/sticker.png",
-  // },
+  {
+    id: 12,
+    name: "",
+    href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
+    image: "/static/images/sponsors/sticker.png",
+  },
   {
     id: 1133,
     name: "",
