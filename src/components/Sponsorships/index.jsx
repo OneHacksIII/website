@@ -15,12 +15,12 @@ const brandsData = [
   //   href: "http://about.meta.com/",
   //   image: "/static/images/sponsors/meta.png",
   // },
-  // {
-  //   id: 1,
-  //   name: "",
-  //   href: "https://www.wolfram.com/language/",
-  //   image: "/static/images/sponsors/wplfram.png",
-  // },
+  {
+    id: 1,
+    name: "",
+    href: "https://www.wolfram.com/language/",
+    image: "/static/images/sponsors/wplfram.png",
+  },
   {
     id: 2,
     name: "",

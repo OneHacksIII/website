@@ -71,15 +71,15 @@ export default function App() {
           <Team id="a" />
         </div>
         
-        {/* <div id="Schedule">
+         <div id="Schedule">
         <Schedule />
       </div>
-      <div id="Speakers">
+      {/* <div id="Speakers">
         <Speakers />
-      </div>
+      </div> */}
       <div id="Prizes">
         <Pricing />
-      </div> */}
+      </div> 
 
         <div id="Faq">
           <Faq />

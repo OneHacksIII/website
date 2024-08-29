@@ -1,5 +1,5 @@
 
-const prizes = ["1st", "2nd", "3rd", "beginner", "creative", "impact", "qoom", "swag", "raffle"]
+const prizes = ["1st", "2nd", "3rd", "beginner", "creative", "impact", "password", "wolfram", "swag", "raffle"]
 const Pricing = () => {
 
   return (
@@ -15,7 +15,7 @@ const Pricing = () => {
       <div className="flex flex-wrap justify-center">
         {prizes.map((prize) => (
           <div className=" px-2 py-3  ">
-            <img src={`/static/images/prizes/${prize}.png`} alt="Prize" className="rounded-[50px] max-h-[20rem] transition-all hover:scale-[105%]" />
+            <img src={`/static/images/prizes/${prize}.png`} alt="Prize" className="rounded-[50px] max-h-[20rem] max-w-[30rem] transition-all hover:scale-[105%]" />
           </div>
         ))}
 
