@@ -20,43 +20,24 @@ const teamData = [
   },
   {
     id: 4,
-    name: "Aayan Maheshwari",
+    name: "Krishna Srinivas",
     designation: "Director of Technology",
-    image: "/static/images/headshots/aayan.png",
+    image: "/static/images/headshots/krishna.png",
   },
   {
     id: 5,
-    name: "Gloria Ma",
+    name: "Luke Choo",
     designation: "Director of Sponsorships",
 
-    image: "/static/images/headshots/gloria.png",
+    image: "/static/images/headshots/luke_choo.png",
   },
-  {
-    id: 6,
-    name: "Justin Shi",
-    designation: "Director of Website Development",
 
-    image: "/static/images/headshots/justin.png",
-  },
   {
     id: 7,
-    name: "Litong Deng",
+    name: "Ayden Wang",
     designation: "Director of Marketing",
-    image: "/static/images/headshots/litong.png",
-  },
-  {
-    id: 2,
-    name: "Weseley Sun",
-    designation: "Advisor",
-
-    image: "/static/images/headshots/wesley.png",
-  },
-  {
-    id: 1,
-    name: "Daisy Zeng",
-    designation: "Advisor",
-    image: "/static/images/headshots/daisy.png",
-  },
+    image: "/static/images/headshots/aydenf.png",
+  }
 
 ];
 

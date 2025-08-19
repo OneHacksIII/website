@@ -11,20 +11,19 @@ module.exports = {
       padding: "1rem",
     },
     // extend: {
-      colors: {
-        // ...defaultColors,
-        current: "currentColor",
-        transparent: "transparent",
-        white: "#FFFFFF",
-        black: "#000000",
-        dark: "#1D2144",
-        primary: "#E94370",
-        yellow: "#FBB040",
-        "logo1": "#E83261",
-        "logo2": "#FEB0CB",
-        "bluee": "#F37196",
-        "body-color": "#959CB1",
-      },
+    colors: {
+      current: "currentColor",
+      transparent: "transparent",
+      white: "#FFFFFF",
+      black: "#000000",
+      dark: "#BDB8E9",        // Dark Pink (Primary)
+      primary: "#BDB8E9",     // Dark Pink (Replaces #E94370)
+      yellow: "#FBB040",      // (Unchanged)
+      "logo1": "#BDB8E9",     // Dark Pink (Replaces #E83261)
+      "logo2": "#EBD7FD",     // Light Pink (Replaces #FEB0CB)
+      "bluee": "#EBD7FD",     // Light Pink (Replaces #F37196)
+      "body-color": "#959CB1", // (Unchanged)
+    },
     // },
     screens: {
       xs: "450px",

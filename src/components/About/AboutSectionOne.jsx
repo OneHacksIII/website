@@ -9,7 +9,7 @@ const AboutSectionOne = () => {
       <div className="container">
         <div className=" py-8">
           <h1 className=" text-3xl  sm:text3xl lg:text-4xl xl:text-5xl  text-center text-white">
-            <span className="font-bold grad-text">OneHacks IV</span> is a completely free virtual hackathon, open to all high school students. No previous coding experience is required!
+            <span className="font-bold grad-text">OneHacks V</span> is a completely free virtual hackathon, open to all high school students. No previous coding experience is required!
 
           </h1>
           <br />

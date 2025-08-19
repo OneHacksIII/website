@@ -29,7 +29,7 @@
 }
 
 .swiper-pagination-progressbar-fill {
-    border-image: linear-gradient(45deg, #FEB0CB, #E83261) 30;
+    border-image: linear-gradient(45deg, #EBD7FD, #BDB8E9) 30;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;

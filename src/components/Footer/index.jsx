@@ -23,15 +23,14 @@ const Footer = () => {
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
 
 
-                  Hack+ is a 501(c)(3) nonprofit organization established in California. They help students launch socially-impactful nonprofits and events through resources that include fiscal sponsorship.
-                  <br />
-                  <br />
-                  OneHacks is a fiscally-sponsored project of Hack+. This student-run organization is run by Daisy Zeng.
+                  {/* HCB is a 501(c)(3) nonprofit organization established in California. They help students launch socially-impactful nonprofits and events through resources that include fiscal sponsorship. */}
+
+                  OneHacks is a fiscally-sponsored project of HCB. This student-run organization is run by Bryant Wang.
 
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://onehacksiv.devpost.com"
+                    href="https://onehacks-v.devpost.com/"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -49,7 +48,7 @@ const Footer = () => {
 
                   </a>
                   <a
-                    href="mailto:info@onehacks.org"
+                    href="mailto:info@onehacks.dev"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -135,11 +134,11 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="mailto:info@onehacks.org"
+                      href="mailto:info@onehacks.dev"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      info@onehacks.org{" "}
+                      info@onehacks.dev{" "}
                     </a>
                   </li>
                   <li>
@@ -153,7 +152,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://onehacksiv.devpost.com"
+                      href="https://onehacks-v.devpost.com/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}

@@ -18,93 +18,107 @@ const brandsData = [
   {
     id: 1,
     name: "",
-    href: "https://www.wolfram.com/language/",
-    image: "/static/images/sponsors/wplfram.png",
+    href: "https://www.yubico.com/",
+    //Yubico
+    image: "static/images/sponsors/Yubicofinal.jpg",
   },
   {
     id: 2,
     name: "",
-    href: "https://hackplus.io",
-    image: "/static/images/sponsors/hackplus.png",
-  },
-  // {
-  //   id: 3,
-  //   name: "",
-  //   href: "https://echo3d.com",
-  //   image: "/static/images/sponsors/echo3d.png",
-  // },
-  {
-    id: 4,
-    name: "",
-    href: "https://balsamiq.com",
-    image: "/static/images/sponsors/baslamiq.png",
-  },
-  // {
-  //   id: 5,
-  //   name: "",
-  //   href: "https://qoom.io",
-  //   image: "/static/images/sponsors/quoom.svg",
-  // },
-  // {
-  //   id: 6,
-  //   name: "",
-  //   href: "https://taskade.com",
-  //   image: "/static/images/sponsors/taskade.png",
-  // },
-  {
-    id: 7,
-    name: "",
-    href: "https://www.interviewcake.com/",
-    image: "/static/images/sponsors/interviewcake.png",
-  },
-  // {
-  //   id: 8,
-  //   name: "",
-  //   href: "https://www.leading-learners.com/",
-  //   image: "/static/images/sponsors/learning.png",
-  // },
-  // {
-  //   id: 9,
-  //   name: "",
-  //   href: "https://www.hhh4good.org/",
-  //   image: "/static/images/sponsors/heartsandhand.jpg",
-  // },
-  {
-    id: 10,
-    name: "",
-    href: "https://1password.com/",
-    image: "/static/images/sponsors/1pwds.png",
-  },
-  // {
-  //   id: 11,
-  //   name: "",
-  //   href: "https://www.crimsoneducation.org/us/",
-  //   image: "/static/images/sponsors/crimson.png",
-  // },
-  {
-    id: 12,
-    name: "",
-    href: "http://hackp.ac/mlh-StandOutStickers-hackathons",
-    image: "/static/images/sponsors/sticker.png",
+    href: "https://balsamiq.com/",
+    //Balsamiq
+    image: "/static/images/sponsors/balsamiq.png",
   },
   {
-    id: 1133,
+    id: 3,
     name: "",
-    href: "https://codehs.org/",
+    href: "https://codehs.com/",
+    //CodeHS
     image: "/static/images/sponsors/codehs.jpg",
   },
   {
-    id: 12233,
+    id: 4,
     name: "",
-    href: "https://postman.com/",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
+    href: "https://www.interviewcake.com/",
+    //InterviewCake
+    image: "/static/images/sponsors/interviewcake.png",
   },
   {
-    id: 13,
+    id: 5,
     name: "",
-    href: "https://artofproblemsolving.com/",
-    image: "/static/images/sponsors/aops.png",
+    href: "https://www.langchain.com/",
+    //LangChain
+    image: "/static/images/sponsors/LangChain-logo.jpg",
   },
+  {
+    id: 6,
+    name: "",
+    href: "https://www.voiceflow.com/",
+    //Voiceflow
+    image: "/static/images/sponsors/Voiceflow-wordmark-light.png",
+  },
+  {
+    id: 7,
+    name: "",
+    href: "https://www.wolfram.com/language/",
+    //Wolfram
+    image: "/static/images/sponsors/wplfram.png",
+  },
+  {
+    id: 8,
+    name: "",
+    href: "https://nordvpn.com/hackathons",
+    image: "/static/images/sponsors/NordVPN_Logo_RGB_Primary_White (1).png",
+    rel: "nofollow sponsored"
+    //NordVPN 
+    //IMPORTANT TO ADD RELLLL!!!!! CHECK W AAYAN JUST TO MAKE SURE
+  },
+  {
+    id: 9,
+    name: "",
+    href: "https://incogni.com/",
+    //Incogni
+    image: "/static/images/sponsors/incogni white (3).png",
+  },
+  {
+    id: 10,
+    name: "",
+    href: "https://nordpass.com/",
+    //NordPass
+    image: "/static/images/sponsors/NordPass-white-horizontal (1).png",
+  },
+  {
+    id: 11,
+    name: "",
+    href: "https://codecrafters.io/",
+    //CodeCrafter
+    image: "/static/images/sponsors/codecrafters.png",
+  },
+  {
+    id: 12,
+    name: "",
+    href: "https://saily.com/",
+    //saily
+    image: "/static/images/headshots/saily-logo-white (2).png",
+  },
+  // {
+  //   id: 1133,
+  //   name: "",
+  //   href: "https://codehs.org/",
+  //   image: "/static/images/sponsors/codehs.jpg",
+  // },
+  // {
+  //   id: 12233,
+  //   name: "",
+  //   href: "https://postman.com/",
+  //   image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
+  // },
+  // {
+  //   id: 13,
+  //   name: "",
+  //   href: "https://artofproblemsolving.com/",
+  //   image: "/static/images/sponsors/aops.png",
+  // },
 ];
 
 const Sponsors = () => {
@@ -132,7 +146,7 @@ const Sponsors = () => {
         <div className="-mx-4 flex ">
           <div className=" max-w-full px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#BDB8E9" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
 
@@ -190,7 +204,7 @@ const Sponsors = () => {
 
             </Swiper>
             <button onClick={nextHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#EBD7FD" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
 

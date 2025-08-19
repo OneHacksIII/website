@@ -7,7 +7,7 @@ const AboutSectionTwo = () => {
         <div className="container max-w-xl hover:scale-125 transform transition">
           <a
             className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
-            href="https://docs.google.com/document/d/1sBqzqpSZehP1W03Dgosr0NeHTZ-4czZUuI7IlYx_2VA/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1xWSZm8UhZeBVRJEN1IObb5HbMPVOULHtoJ7fq9gtTFc/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -29,7 +29,7 @@ const AboutSectionTwo = () => {
         <div className="container max-w-xl hover:scale-125 transform transition">
           <a
             className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
-            href="https://docs.google.com/document/d/1sBqzqpSZehP1W03Dgosr0NeHTZ-4czZUuI7IlYx_2VA/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1bR9i1gQYCswzQveg28F9Rkv1YMHrh5WDLDzuMovQ_x8/edit?tab=t.0#heading=h.ifk3mf469qvn"
             target="_blank"
             rel="noreferrer"
           >

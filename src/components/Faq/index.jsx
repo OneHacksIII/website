@@ -78,7 +78,7 @@ const Brands = () => {
         <div className="-mx-4 flex ">
           <div className=" max-w-full px-4 flex">
             <button onClick={prevHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#EBD7FD" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
 
@@ -107,28 +107,18 @@ const Brands = () => {
                 return (
                   <>
 
-                    <SwiperSlide key={faq.id}>
-                      {/* <div className="flex h-screen"> */}
-                      <div className="container   min-w-full max-w-sm hover:scale-105 transform transition">
-                        <div
-                          className="block rounded-xl border  bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8"
-
-                        >
-
-
-
-                          <h3 className="mt-3 text-lg text-left  text-white font-bold sm:text-xl">
-                            {question}
-                          </h3>
-
-                          <p className="mt-4 text-sm text-left text-body-color">
-                            {ans}
-                          </p>
-                        </div>
-
-                      </div>
-                      {/* </div> */}
-                    </SwiperSlide>
+            <SwiperSlide key={faq.id}>
+              <div className="container min-w-full max-w-sm hover:scale-105 transform transition">
+                <div className="block rounded-xl border bg-[#ffffff14] p-4 shadow-xl sm:p-6 lg:p-8">
+                  <h3 className="mt-3 text-lg text-left text-white font-bold sm:text-xl">
+                    {question}
+                  </h3>
+                  <p className="mt-4 text-sm text-left" style={{ color: "#EBD7FD" }}>
+                    {ans}
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
 
                   </>
                 )
@@ -137,7 +127,7 @@ const Brands = () => {
 
             </Swiper>
             <button onClick={nextHandler} className="scale-125 text-bluee ">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#E94370" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#EBD7FD" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
 

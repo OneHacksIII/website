@@ -27,26 +27,33 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12   ">
                   {/* This is a hackathon */}
-                  <span className="sm:text-sm md:text-base xl:text-xl text-xs text-white font-medium mr-2 px-3 py-3 rounded-full bg-bluee bg-opacity-75 ">
-                    <span className=" sm:text-sm md:text-base xl:text-xl  text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full bg-bluee ">August 29th - September 5th, 2024</span>
-                    Fully Online Hackathon</span>
+                  <span className="text-[12px] sm:text-xs md:text-sm text-black font-medium mr-2 px-2 py-2 rounded-full bg-bluee bg-opacity-75">
+                  <span className="text-[12px] sm:text-xs md:text-sm text-black font-medium mr-1 px-2 py-0.5 rounded-full bg-bluee">
+                    September 6-13!
+                  </span>
+                  <span className="text-[10px] sm:text-xs md:text-sm text-black ml-1">
+                    Fully Online Hackathon
+                  </span>
+                </span>
+
+
 
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <a
-                    href="https://onehacksiv.devpost.com"
+                    href="https://onehacks-v.devpost.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Register on Devpost
 
 
                   </a>
-                  <a href="https://forms.gle/XoF4mUbtL1pyLKGy7	"
+                  <a href="https://forms.gle/3oXRyLXsKfwLN5xL8"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Sign Up Here
                   </a>
@@ -135,8 +142,8 @@ const Hero = () => {
                 y2="288"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0" />
+                <stop stopColor="#BDB8E9" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint1_radial_25:217"
@@ -146,8 +153,8 @@ const Hero = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
               >
-                <stop offset="0.145833" stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0.08" />
               </radialGradient>
               <radialGradient
                 id="paint2_radial_25:217"
@@ -157,8 +164,8 @@ const Hero = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
               >
-                <stop offset="0.145833" stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0.08" />
               </radialGradient>
               <linearGradient
                 id="paint3_linear_25:217"
@@ -168,8 +175,8 @@ const Hero = () => {
                 y2="351.421"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0" />
+                <stop stopColor="#BDB8E9" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:217"
@@ -179,7 +186,7 @@ const Hero = () => {
                 y2="448.882"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
+                <stop stopColor="#BDB8E9" />
                 <stop offset="1" stopColor="white" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -190,7 +197,7 @@ const Hero = () => {
                 y2="470"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
+                <stop stopColor="#BDB8E9" />
                 <stop offset="1" stopColor="white" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -201,8 +208,8 @@ const Hero = () => {
                 y2="338.63"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0" />
+                <stop stopColor="#BDB8E9" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -249,8 +256,8 @@ const Hero = () => {
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" />
+                <stop stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_25:218"
@@ -260,8 +267,8 @@ const Hero = () => {
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" />
+                <stop stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_25:218"
@@ -271,8 +278,8 @@ const Hero = () => {
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" />
+                <stop stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_25:218"
@@ -282,8 +289,8 @@ const Hero = () => {
                 y2="210.214"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" stopOpacity="0" />
-                <stop offset="1" stopColor="#FEB0CB" />
+                <stop stopColor="#BDB8E9" stopOpacity="0" />
+                <stop offset="1" stopColor="#EBD7FD" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:218"
@@ -293,8 +300,8 @@ const Hero = () => {
                 y2="99.5816"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#E83261" />
-                <stop offset="1" stopColor="#FEB0CB" stopOpacity="0" />
+                <stop stopColor="#BDB8E9" />
+                <stop offset="1" stopColor="#EBD7FD" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint5_radial_25:218"
