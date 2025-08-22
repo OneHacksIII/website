@@ -9,12 +9,12 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
 const brandsData = [
-  // {
-  //   id: 0,
-  //   name: "",
-  //   href: "http://about.meta.com/",
-  //   image: "/static/images/sponsors/meta.png",
-  // },
+  {
+    id: 0,
+    name: "",
+    href: "https://www.desmos.com/",
+    image: "/static/images/sponsors/demos_logo.png",
+  },
   {
     id: 1,
     name: "",
@@ -102,6 +102,13 @@ const brandsData = [
     image: "/static/images/headshots/saily-logo-white (2).png",
   },
   // {
+  //   id: 13,
+  //   name: "",
+  //   href: "https://artofproblemsolving.com/?srsltid=AfmBOoqQ42oYyvRYvzwAzrDMQZzxIAgU7RcI8J_ZfHjg5u4qfW2fdC95",
+  //   //AOPS
+  //   image: "/static/images/headshots/aops_logo_pf.png",
+  // },
+  // {
   //   id: 1133,
   //   name: "",
   //   href: "https://codehs.org/",
@@ -113,12 +120,13 @@ const brandsData = [
   //   href: "https://postman.com/",
   //   image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
   // },
-  // {
-  //   id: 13,
-  //   name: "",
-  //   href: "https://artofproblemsolving.com/",
-  //   image: "/static/images/sponsors/aops.png",
-  // },
+  {
+    id: 13,
+    name: "",
+    href: "https://artofproblemsolving.com/",
+    image: "/static/images/sponsors/aops.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
 ];
 
 const Sponsors = () => {

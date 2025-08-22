@@ -2,10 +2,10 @@ const prizes = [
   {
     title: "1st Place",
     details: [
-      "$240 in Cash",
-      "$25 AoPS coupon for each winner",
-      "Wolfram Award - One Year of Wolfram|One Professional Edition",
-      "1 Year of 1Password Families (access up to 5 family members)",
+      "$120 in Cash",
+      "1 AoPS coupon for each winner",
+      "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
+      "2-year VIP CodeCrafters membership",
       "Includes all participant gifts"
     ],
     gradient: true
@@ -13,9 +13,9 @@ const prizes = [
   {
     title: "2nd Place",
     details: [
-      "$200 in Cash",
-      "Wolfram Award - One Year of Wolfram|One Professional Edition",
-      "1 Year of 1Password Families (access up to 5 family members)",
+      "$90 in Cash",
+      "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
+      "1-year VIP CodeCrafters membership",
       "Includes all participant gifts"
     ],
     gradient: true
@@ -23,9 +23,8 @@ const prizes = [
   {
     title: "3rd Place",
     details: [
-      "$160 in Cash",
-      "Wolfram Award - One Year of Wolfram|One Professional Edition",
-      "1 Year of 1Password Families (access up to 5 family members)",
+      "$60 in Cash",
+      "6-month VIP CodeCrafters membership",
       "Includes all participant gifts"
     ],
     gradient: true
@@ -33,63 +32,50 @@ const prizes = [
   {
     title: "Best Beginner",
     details: [
-      "$100 in Cash",
-      "Wolfram Award - One Year of Wolfram|One Professional Edition",
-      "1 Year of 1Password Families (access up to 5 family members)",
-      "Includes all participant gifts"
-    ]
-  },
-  {
-    title: "Most Creative Project",
-    details: [
-      "$100 in Cash",
-      "1 Year of 1Password Families (access up to 5 family members)",
+      "$30 in Cash",
       "Includes all participant gifts"
     ]
   },
   {
     title: "Most Impactful",
     details: [
-      "$100 in Cash",
-      "Wolfram Award - One Year of Wolfram|One Professional Edition",
-      "1 Year of 1Password Families (access up to 5 family members)",
+      "$30 in Cash",
       "Includes all participant gifts"
     ]
   },
   {
-    title: "1 Year of 1Password Families",
+    title: "Most Creative",
     details: [
-      "OneHacks offers a license for one year of 1Password Families (access up to 5 family members)",
-      "Winner is randomly chosen"
-    ]
-  },
-  {
-    title: "Wolfram|Alpha",
-    details: [
-      "This is an opt-in prize.",
-      "Although students aren’t required to use Wolfram tech in their project to be eligible for this award, any student who submits a project utilizing the Wolfram API is eligible for a $500 scholarship to one of Wolfram’s summer programs if they apply and are accepted.",
-      "An email will be sent out at the start of the hackathon with more details on this award. Students may reach out for additional details."
-    ]
-  },
-  {
-    title: "Participant Gifts (Swag)",
-    details: [
-      "OneHacks IV T-shirt",
-      "OneHacks IV Sticker",
-      "Access to Wolfram|One for 30 days",
-      "2 months of Balsamiq’s 2-project Plan",
-      "CodeHS Swag"
+      "$30 in Cash",
+      "Includes all participant gifts"
     ]
   },
   {
     title: "Raffle",
     details: [
-      "$45 Desmos Gift Card",
-      "1 free annual subscription to Axure RP Team",
-      "Based on workshop attendance"
+      "Desmos swag pack",
+      "60 certificates for InterviewCake"
+    ]
+  },
+  // {
+  //   title: "Wolfram Award",
+  //   details: [
+  //     "6 months of Wolfram|One",
+  //     "This is an opt-in prize.",
+  //     "Although students aren’t required to use Wolfram tech in their project to be eligible for this award, any student who submits a project utilizing the Wolfram API is eligible for a $500 scholarship to one of Wolfram’s summer programs if they apply and are accepted.",
+  //     "An email will be sent out at the start of the hackathon with more details on this award. Students may reach out for additional details."
+  //   ]
+  // },
+  {
+    title: "Participant Gifts (Swag)",
+    details: [
+      "6 months of Wolfram|One",
+      "60 day Balsamiq trial",
+      "30 day Voiceflow Pro trial"
     ]
   }
 ];
+
 
 const PrizeCard = ({ title, details, gradient }) => (
   <div className={`${
