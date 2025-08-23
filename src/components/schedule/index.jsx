@@ -46,7 +46,7 @@ const Schedule = () => {
             <div className="w-[65%] sm:w-[70%] lg:w-[50%] h-[3rem] sm:h-[3.5rem] lg:h-[4rem] rounded-full blur-2xl opacity-50 bg-gradient-to-r from-[#BDB8E9] to-[#EBD7FD]"></div>
           </div>
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-semibold bg-gradient-to-r from-[#BDB8E9] to-[#EBD7FD] bg-clip-text text-transparent drop-shadow-md shadow-white z-10">
-            To be decided soon!
+            To be announced soon!
           </h2>
         </div>
       </div>
