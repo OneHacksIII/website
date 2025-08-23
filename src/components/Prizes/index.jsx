@@ -57,15 +57,15 @@ const prizes = [
       "60 certificates for InterviewCake"
     ]
   },
-  // {
-  //   title: "Wolfram Award",
-  //   details: [
-  //     "6 months of Wolfram|One",
-  //     "This is an opt-in prize.",
-  //     "Although students aren’t required to use Wolfram tech in their project to be eligible for this award, any student who submits a project utilizing the Wolfram API is eligible for a $500 scholarship to one of Wolfram’s summer programs if they apply and are accepted.",
-  //     "An email will be sent out at the start of the hackathon with more details on this award. Students may reach out for additional details."
-  //   ]
-  // },
+  {
+    title: "Wolfram Award",
+    details: [
+      "1 year of Wolfram|One",
+      "This is an opt-in prize.",
+      "Although students aren’t required to use Wolfram tech in their project to be eligible for this award, any student who submits a project utilizing the Wolfram API is eligible for a $500 scholarship to one of Wolfram’s summer programs if they apply and are accepted.",
+      "An email will be sent out at the start of the hackathon with more details on this award. Students may reach out for additional details."
+    ]
+  },
   {
     title: "Participant Gifts (Swag)",
     details: [
