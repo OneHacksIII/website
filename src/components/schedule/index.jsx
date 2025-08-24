@@ -4,8 +4,8 @@ import 'swiper/css/pagination';
 
 const Schedule = () => {
   return (
-    <section className="pt-16">
-      <div className="py-8">
+    <section className="pt-4">
+      <div className="py-4">
         <h1 className="text-5xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-left pl-[12%] text-white">
           Schedule
         </h1>
@@ -16,7 +16,6 @@ const Schedule = () => {
       </div>
 
       <div className="container">
-
         <div className="flex items-center justify-center">
         <img
           src="/static/images/schedule/Website_schedule.png"
