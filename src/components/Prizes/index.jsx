@@ -4,9 +4,9 @@ const prizes = [
     details: [
       "$120 in Cash",
       "1 AoPS coupon for each winner",
+      "1 CleanShot X license for each winner (worth $29)",
       "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
-      "2-year VIP CodeCrafters membership",
-      "Includes all participant gifts"
+      "2-year VIP CodeCrafters membership (worth $720 each)"
     ],
     gradient: true
   },
@@ -14,9 +14,9 @@ const prizes = [
     title: "2nd Place",
     details: [
       "$90 in Cash",
+      "1 CleanShot X license for each winner (worth $29)",
       "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
-      "1-year VIP CodeCrafters membership",
-      "Includes all participant gifts"
+      "1-year VIP CodeCrafters membership (worth $360 each)"
     ],
     gradient: true
   },
@@ -24,8 +24,8 @@ const prizes = [
     title: "3rd Place",
     details: [
       "$60 in Cash",
-      "6-month VIP CodeCrafters membership",
-      "Includes all participant gifts"
+      "1 CleanShot X license for each winner (worth $29)",
+      "6-month VIP CodeCrafters membership"
     ],
     gradient: true
   },
@@ -33,45 +33,48 @@ const prizes = [
     title: "Best Beginner",
     details: [
       "$30 in Cash",
-      "Includes all participant gifts"
+      "1 CleanShot X license for each winner (worth $29)"
     ]
   },
   {
     title: "Most Impactful",
     details: [
       "$30 in Cash",
-      "Includes all participant gifts"
+      "1 CleanShot X license for each winner (worth $29)"
     ]
   },
   {
     title: "Most Creative",
     details: [
       "$30 in Cash",
-      "Includes all participant gifts"
+      "1 CleanShot X license for each winner (worth $29)"
     ]
   },
   {
     title: "Raffle",
     details: [
       "Desmos swag pack",
-      "60 certificates for InterviewCake"
+      "1 year of Vue School (worth $300)",
+      "1 month of Vue School (worth $25)"
     ]
   },
   {
     title: "Wolfram Award",
     details: [
+      "Requirement: utilize Wolfram Language as a significant component in their project, verified by a Wolfram mentor at your event",
       "1 year of Wolfram|One",
-      "This is an opt-in prize.",
-      "Although students aren’t required to use Wolfram tech in their project to be eligible for this award, any student who submits a project utilizing the Wolfram API is eligible for a $500 scholarship to one of Wolfram’s summer programs if they apply and are accepted.",
-      "An email will be sent out at the start of the hackathon with more details on this award. Students may reach out for additional details."
+      "$500 scholarship to Wolfram summer program*",
+      "More details will be provided if requested",
+      "*Must apply and be accepted"
     ]
   },
   {
     title: "Participant Gifts (Swag)",
     details: [
-      "6 months of Wolfram|One",
+      "- 6 Months of Wolfram|One (worth $830)",
       "60 day Balsamiq trial",
-      "30 day Voiceflow Pro trial"
+      "30 day Voiceflow Pro trial (worth $60)",
+      "*Balsamiq trial is not included in prize value calculations"
     ]
   }
 ];
@@ -115,7 +118,7 @@ const Pricing = () => {
   return (
     <section className="pt-16">
       <div className="py-8">
-        <h1 className="text-6xl font-bold text-center text-white">PRIZES</h1>
+        <h1 className="text-6xl font-bold text-center text-white">$50K IN PRIZES</h1>
         <div className="grid place-items-center py-8">
           <hr className="w-3/5 h-1 border-none bg-gradient-to-r from-[#FEB0CB] to-[#EBD7FD] rounded" />
         </div>

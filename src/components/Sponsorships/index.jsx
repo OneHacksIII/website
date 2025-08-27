@@ -108,20 +108,20 @@ const brandsData = [
   //   //AOPS
   //   image: "/static/images/headshots/aops_logo_pf.png",
   // },
-  // {
-  //   id: 1133,
-  //   name: "",
-  //   href: "https://codehs.org/",
-  //   image: "/static/images/sponsors/codehs.jpg",
-  // },
-  // {
-  //   id: 12233,
-  //   name: "",
-  //   href: "https://postman.com/",
-  //   image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png",
-  // },
   {
     id: 13,
+    name: "",
+    href: "https://vueschool.io/",
+    image: "/static/images/sponsors/vieschool.png",
+  },
+  {
+    id: 14,
+    name: "",
+    href: "https://cleanshot.com/",
+    image: "/static/images/sponsors/cleanshotx.png",
+  },
+  {
+    id: 15,
     name: "",
     href: "https://artofproblemsolving.com/",
     image: "/static/images/sponsors/aops.png",
