@@ -69,9 +69,9 @@ const prizes = [
     ]
   },
   {
-    title: "Participant Gifts (Swag)",
+    title: "Participant Gifts",
     details: [
-      "- 6 Months of Wolfram|One (worth $830)",
+      "6 Months of Wolfram|One (worth $830)",
       "60 day Balsamiq trial",
       "30 day Voiceflow Pro trial (worth $60)",
       "*Balsamiq trial is not included in prize value calculations"
