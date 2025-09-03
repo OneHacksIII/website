@@ -127,6 +127,27 @@ const brandsData = [
     image: "/static/images/sponsors/aops.png",
     //image: "/static/images/sponsors/aops_logo_pf.png",
   },
+  {
+    id: 16,
+    name: "",
+    href: "https://nexos.ai/",
+    image: "/static/images/sponsors/nexosai.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
+  {
+    id: 17,
+    name: "",
+    href: "https://nordprotect.com/?nc=Search_-_USA_-_Brand_-_Exact+Phrase_-_EN_-_DMT_-_USD&ns=google&nm=cpc&nt=nordprotect&gad_source=1&gad_campaignid=22372303413&gbraid=0AAAAA-kBrrnfZq3O7F71pmDQPlRAg8hAj",
+    image: "/static/images/sponsors/nordprotect.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
+  {
+    id: 18,
+    name: "",
+    href: "https://unibee.dev/",
+    image: "/static/images/sponsors/unibee.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
 ];
 
 const Sponsors = () => {

@@ -5,7 +5,8 @@ const prizes = [
       "$120 in Cash",
       "1 AoPS coupon for each winner",
       "1 CleanShot X license for each winner (worth $29)",
-      "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
+      "1-year subscriptions to NordVPN, NordPass, NordProtect, Saily, and Incogni",
+      "3 month access to nexos.ai",
       "2-year VIP CodeCrafters membership (worth $720 each)"
     ],
     gradient: true
@@ -15,7 +16,8 @@ const prizes = [
     details: [
       "$90 in Cash",
       "1 CleanShot X license for each winner (worth $29)",
-      "1-year subscriptions to NordVPN, NordPass, Saily, and Incogni",
+      "1-year subscriptions to NordVPN, NordPass, NordProtect, Saily, and Incogni",
+      "3 month access to nexos.ai",
       "1-year VIP CodeCrafters membership (worth $360 each)"
     ],
     gradient: true
@@ -25,7 +27,7 @@ const prizes = [
     details: [
       "$60 in Cash",
       "1 CleanShot X license for each winner (worth $29)",
-      "6-month VIP CodeCrafters membership"
+      "6-month VIP CodeCrafters membership (worth $180 each)"
     ],
     gradient: true
   },
@@ -72,8 +74,9 @@ const prizes = [
     title: "Participant Gifts",
     details: [
       "6 Months of Wolfram|One (worth $830)",
-      "60 day Balsamiq trial",
+      "3 months of UniBee (worth $9 per month)",
       "30 day Voiceflow Pro trial (worth $60)",
+      "60 day Balsamiq trial",
       "*Balsamiq trial is not included in prize value calculations"
     ]
   }
