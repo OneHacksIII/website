@@ -148,6 +148,20 @@ const brandsData = [
     image: "/static/images/sponsors/unibee.png",
     //image: "/static/images/sponsors/aops_logo_pf.png",
   },
+  {
+    id: 19,
+    name: "",
+    href: "https://gen.xyz/",
+    image: "/static/images/sponsors/xyz_logo.svg.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
+  {
+    id: 20,
+    name: "",
+    href: "https://verbwire.com",
+    image: "/static/images/sponsors/verbwire.png",
+    //image: "/static/images/sponsors/aops_logo_pf.png",
+  },
 ];
 
 const Sponsors = () => {

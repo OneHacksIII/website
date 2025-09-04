@@ -3,7 +3,7 @@ const prizes = [
     title: "1st Place",
     details: [
       "$120 in Cash",
-      "1 AoPS coupon for each winner",
+      "1 AoPS coupon for each winner (worth $25 each)",
       "1 CleanShot X license for each winner (worth $29)",
       "1-year subscriptions to NordVPN, NordPass, NordProtect, Saily, and Incogni",
       "3 month access to nexos.ai",
@@ -55,7 +55,7 @@ const prizes = [
   {
     title: "Raffle",
     details: [
-      "Desmos swag pack",
+      "Desmos swag pack (worth $45)",
       "1 year of Vue School (worth $300)",
       "1 month of Vue School (worth $25)"
     ]
@@ -78,6 +78,26 @@ const prizes = [
       "30 day Voiceflow Pro trial (worth $60)",
       "60 day Balsamiq trial",
       "*Balsamiq trial is not included in prize value calculations"
+    ]
+  },
+  {
+    title: "Best Use of AI & Verbwire API",
+    details: [
+      "Goes to teams who use AI and the Verbwire API in building applications. Feel free to use MagicPilot.ai by Verbwire to build web3 programs using AI.",
+      "$45 of Premium API credits per team member",
+    ]
+  },
+  {
+    title: "Most Innovative Use Of Verbwire API",
+    details: [
+      "$45 of Premium API credits per team member",
+    ]
+  },
+  {
+    title: "Limited Participant Gifts",
+    details: [
+      "Interview Cake Licenses (60 total)",
+      "Gen.xyz domains (150 total)"
     ]
   }
 ];
