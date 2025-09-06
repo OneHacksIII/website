@@ -17,7 +17,7 @@ const AboutSectionTwo = () => {
 
 
             <h3 className="mt-3 text-lg grad-text font-bold sm:text-xl">
-              The Hackers Guide
+              The Hacker's Guide
             </h3>
 
             <p className="mt-4 text-sm text-body-color">
